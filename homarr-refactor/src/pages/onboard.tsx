@@ -4,6 +4,7 @@ import { IconArrowRight } from '@tabler/icons-react';
 import Consola from 'consola';
 import fs from 'fs';
 import fsPromises from 'fs/promises';
+import path from 'path';
 import { GetServerSideProps, InferGetServerSidePropsType } from 'next';
 import Head from 'next/head';
 import { DatabaseNotWriteable } from '~/components/Onboarding/database-not-writeable';
@@ -88,7 +89,19 @@ export const getServerSideProps: GetServerSideProps = async (ctx) => {
     };
   }
 
-  const files = fs.readdirSync('./data/configs').filter((file) => file.endsWith('.json'));
+  const configsDirectory = path.join(process.cwd(), 'data/configs');
+  const defaultConfigPath = path.join(configsDirectory, 'default.json');
+  const sourceDefaultConfigPath = path.join(process.cwd(), 'data/default.json');
+
+  if (!fs.existsSync(configsDirectory)) {
+    fs.mkdirSync(configsDirectory, { recursive: true });
+  }
+
+  if (!fs.existsSync(defaultConfigPath) && fs.existsSync(sourceDefaultConfigPath)) {
+    fs.copyFileSync(sourceDefaultConfigPath, defaultConfigPath);
+  }
+
+  const files = fs.readdirSync(configsDirectory).filter((file) => file.endsWith('.json'));
   const configs = files.map((file) => getConfig(file));
   const configSchemaVersions = configs.map((config) => config.schemaVersion);
 
