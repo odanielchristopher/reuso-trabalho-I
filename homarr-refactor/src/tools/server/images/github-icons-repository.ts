@@ -1,6 +1,7 @@
-import { AbstractIconRepository, NormalizedIcon, NormalizedIconRepositoryResult } from './abstract-icons-repository';
+import { NormalizedIcon } from './abstract-icons-repository';
+import { RemoteIconsRepository } from './remote-icons-repository';
 
-export class GitHubIconsRepository extends AbstractIconRepository {
+export class GitHubIconsRepository extends RemoteIconsRepository<GitHubRepo> {
   static readonly walkxcode = {
     api: 'https://api.github.com/repos/walkxcode/dashboard-icons/git/trees/main?recursive=true',
     blob: 'https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/{0}/{1}',
@@ -8,19 +9,14 @@ export class GitHubIconsRepository extends AbstractIconRepository {
 
   constructor(
     private readonly repository: GitHubRepositoryUrl,
-    private readonly displayName: string,
+    displayName: string,
     copyright: string
   ) {
-    super(copyright);
+    super(repository.api, displayName, copyright, {});
   }
 
-  protected async fetchInternally(): Promise<NormalizedIconRepositoryResult> {
-    const response = await fetch(this.repository.api, { 
-      
-    });
-    const body = (await response.json()) as GitHubRepo;
-
-    const normalizedEntries = body.tree
+  protected normalizeEntries(body: GitHubRepo): NormalizedIcon[] {
+    return body.tree
       .filter((file) => !['banner.png', 'logo.png'].some((x) => file.path.includes(x)))
       .filter((file) => ['.png', '.svg'].some((x) => file.path.endsWith(x)))
       .sort((a, b) => {
@@ -42,14 +38,6 @@ export class GitHubIconsRepository extends AbstractIconRepository {
           size: file.size ?? 0,
         };
       });
-
-    return {
-      entries: normalizedEntries,
-      count: normalizedEntries.length,
-      success: true,
-      name: this.displayName,
-      copyright: this.copyright,
-    };
   }
 
   protected name: string = "GitHub";
