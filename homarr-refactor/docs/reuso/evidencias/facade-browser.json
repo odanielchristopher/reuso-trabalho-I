@@ -1,0 +1,197 @@
+{
+  "fixture": {
+    "appId": "5df743d9-5cb1-457c-85d2-64ff86855652",
+    "widgetId": "f252768d-9e69-491b-b6b4-8cad04fa30e8",
+    "initialAppShape": {
+      "sm": {
+        "location": {
+          "x": 0,
+          "y": 0
+        },
+        "size": {
+          "width": 1,
+          "height": 1
+        }
+      },
+      "md": {
+        "location": {
+          "x": 0,
+          "y": 0
+        },
+        "size": {
+          "width": 1,
+          "height": 1
+        }
+      },
+      "lg": {
+        "location": {
+          "x": 0,
+          "y": 0
+        },
+        "size": {
+          "width": 1,
+          "height": 1
+        }
+      }
+    },
+    "initialWidgetShape": {
+      "sm": {
+        "location": {
+          "x": 2,
+          "y": 0
+        },
+        "size": {
+          "width": 1,
+          "height": 1
+        }
+      },
+      "md": {
+        "location": {
+          "x": 2,
+          "y": 0
+        },
+        "size": {
+          "width": 1,
+          "height": 1
+        }
+      },
+      "lg": {
+        "location": {
+          "x": 2,
+          "y": 0
+        },
+        "size": {
+          "width": 1,
+          "height": 1
+        }
+      }
+    }
+  },
+  "saved": [
+    {
+      "id": "5df743d9-5cb1-457c-85d2-64ff86855652",
+      "type": "app",
+      "area": {
+        "type": "wrapper",
+        "properties": {
+          "id": "default"
+        }
+      },
+      "shape": {
+        "sm": {
+          "location": {
+            "x": 0,
+            "y": 0
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        },
+        "md": {
+          "location": {
+            "x": 0,
+            "y": 0
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        },
+        "lg": {
+          "location": {
+            "x": 1,
+            "y": 0
+          },
+          "size": {
+            "width": 1,
+            "height": 2
+          }
+        }
+      }
+    },
+    {
+      "id": "f252768d-9e69-491b-b6b4-8cad04fa30e8",
+      "type": "widget",
+      "area": {
+        "type": "wrapper",
+        "properties": {
+          "id": "facade-target"
+        }
+      },
+      "shape": {
+        "sm": {
+          "location": {
+            "x": 2,
+            "y": 0
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        },
+        "md": {
+          "location": {
+            "x": 2,
+            "y": 0
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        },
+        "lg": {
+          "location": {
+            "x": 2,
+            "y": 0
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        }
+      }
+    }
+  ],
+  "browserObserved": {
+    "large": {
+      "app": {
+        "x": 1,
+        "y": 0,
+        "w": 1,
+        "h": 2,
+        "area": "default"
+      },
+      "widget": {
+        "x": 2,
+        "y": 0,
+        "w": 1,
+        "h": 1,
+        "area": "facade-target"
+      },
+      "reloadMatched": true
+    },
+    "medium": {
+      "viewportWidth": 900,
+      "columns": 6,
+      "editModeLabel": "medium",
+      "app": {
+        "x": 0,
+        "y": 0,
+        "w": 1,
+        "h": 1
+      }
+    },
+    "small": {
+      "viewportWidth": 450,
+      "columns": 3,
+      "editModeLabel": "small",
+      "app": {
+        "x": 0,
+        "y": 0,
+        "w": 1,
+        "h": 1
+      }
+    }
+  }
+}
