@@ -1,4 +1,3 @@
-import { GridStack, GridStackNode } from 'fily-publish-gridstack';
 import { MutableRefObject, RefObject, createRef, useEffect, useMemo, useRef } from 'react';
 import { useConfigContext } from '~/config/provider';
 import { useConfigStore } from '~/config/store';
@@ -7,7 +6,7 @@ import { AreaType } from '~/types/area';
 import { IWidget } from '~/widgets/widgets';
 
 import { useEditModeStore } from '../../Views/useEditModeStore';
-import { TileWithUnknownLocation, initializeGridstack } from './init-gridstack';
+import { DashboardLayoutFacade, LayoutItemChange } from './dashboard-layout-facade';
 import { useGridstackStore, useWrapperColumnCount } from './store';
 
 interface UseGristackReturnType {
@@ -16,7 +15,6 @@ interface UseGristackReturnType {
   refs: {
     wrapper: RefObject<HTMLDivElement>;
     items: MutableRefObject<Record<string, RefObject<HTMLDivElement>>>;
-    gridstack: MutableRefObject<GridStack | undefined>;
   };
 }
 
@@ -31,13 +29,14 @@ export const useGridstack = (
   const wrapperRef = useRef<HTMLDivElement>(null);
   // references to the diffrent items contained in the gridstack
   const itemRefs = useRef<Record<string, RefObject<HTMLDivElement>>>({});
-  // reference of the gridstack object for modifications after initialization
-  const gridRef = useRef<GridStack>();
+  const layoutRef = useRef<DashboardLayoutFacade>();
+  if (!layoutRef.current) {
+    layoutRef.current = new DashboardLayoutFacade(document.querySelector(':root')!);
+  }
+  const layout = layoutRef.current;
   const wrapperColumnCount = useWrapperColumnCount();
   const shapeSize = useGridstackStore((x) => x.currentShapeSize);
   const mainAreaWidth = useGridstackStore((x) => x.mainAreaWidth);
-  // width of the wrapper (updating on page resize)
-  const root: HTMLHtmlElement = useMemo(() => document.querySelector(':root')!, []);
 
   if (!mainAreaWidth || !shapeSize || !wrapperColumnCount) {
     throw new Error('UseGridstack should not be executed before mainAreaWidth has been set!');
@@ -76,24 +75,15 @@ export const useGridstack = (
   }
 
   useEffect(() => {
-    if (areaType === 'sidebar') return;
-    const widgetWidth = mainAreaWidth / wrapperColumnCount;
-    // widget width is used to define sizes of gridstack items within global.scss
-    root.style.setProperty('--gridstack-widget-width', widgetWidth.toString());
-    gridRef.current?.cellHeight(widgetWidth);
-  }, [mainAreaWidth, wrapperColumnCount, gridRef.current]);
-
-  useEffect(() => {
-    // column count is used to define count of columns of gridstack within global.scss
-    root.style.setProperty('--gridstack-column-count', wrapperColumnCount.toString());
-  }, [wrapperColumnCount]);
+    layout.updateDimensions(areaType, mainAreaWidth, wrapperColumnCount);
+  }, [mainAreaWidth, wrapperColumnCount, layout.initialized]);
 
   const onChange = isEditMode
-    ? (changedNode: GridStackNode) => {
+    ? (changedNode: LayoutItemChange) => {
         if (!configName) return;
 
-        const itemType = changedNode.el?.getAttribute('data-type');
-        const itemId = changedNode.el?.getAttribute('data-id');
+        const itemType = changedNode.itemType;
+        const itemId = changedNode.itemId;
         if (!itemType || !itemId) return;
 
         // Updates the config and defines the new position of the item
@@ -137,11 +127,11 @@ export const useGridstack = (
     : () => {};
 
   const onAdd = isEditMode
-    ? (addedNode: GridStackNode) => {
+    ? (addedNode: LayoutItemChange) => {
         if (!configName) return;
 
-        const itemType = addedNode.el?.getAttribute('data-type');
-        const itemId = addedNode.el?.getAttribute('data-id');
+        const itemType = addedNode.itemType;
+        const itemId = addedNode.itemId;
         if (!itemType || !itemId) return;
 
         // Updates the config and defines the new position and wrapper of the item
@@ -234,29 +224,31 @@ export const useGridstack = (
 
   // initialize the gridstack
   useEffect(() => {
-    const removeEventHandlers = () => {
-      gridRef.current?.off('change');
-      gridRef.current?.off('added');
-    };
-
-    const tilesWithUnknownLocation: TileWithUnknownLocation[] = [];
-    initializeGridstack(
+    const removeEventHandlers = () => layout.releaseEvents();
+    const tilesWithUnknownLocation = layout.initialize({
       areaType,
-      wrapperRef,
-      gridRef,
-      itemRefs,
       areaId,
-      items,
-      widgets ?? [],
-      isEditMode,
-      wrapperColumnCount,
+      container: wrapperRef.current,
+      items: [
+        ...items.map((item) => ({
+          id: item.id,
+          type: 'app' as const,
+          shape: item.shape,
+          element: itemRefs.current[item.id]?.current,
+        })),
+        ...widgets.map((item) => ({
+          id: item.id,
+          type: 'widget' as const,
+          shape: item.shape,
+          element: itemRefs.current[item.id]?.current,
+        })),
+      ],
+      editMode: isEditMode,
+      columnCount: wrapperColumnCount,
       shapeSize,
-      tilesWithUnknownLocation,
-      {
-        onChange,
-        onAdd,
-      }
-    );
+      onChange,
+      onAdd,
+    });
     if (!configName) return removeEventHandlers;
     updateConfig(configName, (prev) => ({
       ...prev,
@@ -316,7 +308,6 @@ export const useGridstack = (
     refs: {
       items: itemRefs,
       wrapper: wrapperRef,
-      gridstack: gridRef,
     },
   };
 };
