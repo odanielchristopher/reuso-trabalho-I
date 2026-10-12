@@ -1,21 +1,19 @@
-import { AbstractIconRepository, NormalizedIcon, NormalizedIconRepositoryResult } from './abstract-icons-repository';
+import { NormalizedIcon } from './abstract-icons-repository';
+import { RemoteIconsRepository } from './remote-icons-repository';
 
-export class UnpkgIconsRepository extends AbstractIconRepository {
+export class UnpkgIconsRepository extends RemoteIconsRepository<UnpkgResponse> {
   static tablerRepository = 'https://unpkg.com/@tabler/icons-png@2.0.0-beta/icons/';
 
   constructor(
     private readonly repository: string,
-    private readonly displayName: string,
+    displayName: string,
     copyright: string
   ) {
-    super(copyright);
+    super(`${repository}?meta`, displayName, copyright);
   }
 
-  protected async fetchInternally(): Promise<NormalizedIconRepositoryResult> {
-    const response = await fetch(`${this.repository}?meta`);
-    const body = (await response.json()) as UnpkgResponse;
-
-    const normalizedEntries = body.files
+  protected normalizeEntries(body: UnpkgResponse): NormalizedIcon[] {
+    return body.files
       .filter((file) => file.type === 'file')
       .map((file): NormalizedIcon => {
         const fileName = file.path.replace('/icons/', '');
@@ -26,14 +24,6 @@ export class UnpkgIconsRepository extends AbstractIconRepository {
           size: file.size,
         };
       });
-
-    return {
-      entries: normalizedEntries,
-      count: normalizedEntries.length,
-      success: true,
-      name: this.displayName,
-      copyright: this.copyright,
-    };
   }
 
   protected name: string = "UnPkg";
