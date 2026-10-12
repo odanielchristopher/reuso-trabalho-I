@@ -1,0 +1,3 @@
+ESLint configuration in package.json is invalid:
+	- Unexpected top-level property "ignoreDuringBuilds".
+

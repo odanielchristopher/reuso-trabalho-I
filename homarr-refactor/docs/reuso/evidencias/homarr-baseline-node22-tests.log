@@ -1,0 +1,23 @@
+
+ RUN  v0.33.0 /home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr
+
+ ✓ src/tools/server/sdk/plex/plexClient.test.ts  (3 tests) 23ms
+ ✓ src/tools/_tests/humanFileSize.spec.ts  (22 tests) 10ms
+ ✓ src/tools/shared/time/date.tool.test.ts  (3 tests) 7ms
+ ✓ src/tools/shared/time/stopwatch.tool.test.ts  (1 test) 7ms
+ ✓ src/tools/_tests/bytesHelper.spec.ts  (11 tests) 9ms
+ ✓ src/utils/auth/oidc-redirect.spec.ts  (4 tests) 9ms
+ ✓ src/server/api/routers/invite/invite-router.spec.ts  (8 tests) 42ms
+ ✓ src/tools/shared/math/percentage.tool.test.ts  (2 tests) 5ms
+ ✓ src/tools/_tests/language.spec.ts  (2 tests) 6ms
+ ✓ src/components/AppAvatar.test.tsx  (1 test) 39ms
+ ✓ tests/pages/auth/login.spec.ts  (3 tests) 8ms
+ ✓ src/widgets/torrent/TorrentTile.spec.ts  (7 tests) 8ms
+ ✓ src/tools/server/sdk/pihole/piHole.spec.ts  (11 tests) 1955ms
+ ✓ tests/pages/board/[slug].spec.ts  (4 tests) 9ms
+
+ Test Files  14 passed (14)
+      Tests  82 passed (82)
+   Start at  15:14:06
+   Duration  2.86s (transform 1.19s, setup 1.16s, collect 6.15s, tests 2.14s, environment 3.49s, prepare 1.43s)
+

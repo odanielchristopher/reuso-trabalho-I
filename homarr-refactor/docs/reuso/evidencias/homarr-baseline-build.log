@@ -1,0 +1,103 @@
+   Skipping linting
+   Checking validity of types ...
+   Creating an optimized production build ...
+Browserslist: caniuse-lite is outdated. Please run:
+  npx browserslist@latest --update-db
+  Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
+ ⚠ Compiled with warnings
+
+./node_modules/react-ssr-prepass/dist/react-ssr-prepass.es.js
+A Node.js API is used (setImmediate at line: 512) which is not supported in the Edge Runtime.
+Learn more: https://nextjs.org/docs/api-reference/edge-runtime
+
+Import trace for requested module:
+./node_modules/react-ssr-prepass/dist/react-ssr-prepass.es.js
+./node_modules/@trpc/next/dist/index.mjs
+./src/utils/api.ts
+
+./node_modules/react-ssr-prepass/dist/react-ssr-prepass.es.js
+A Node.js API is used (setImmediate at line: 768) which is not supported in the Edge Runtime.
+Learn more: https://nextjs.org/docs/api-reference/edge-runtime
+
+Import trace for requested module:
+./node_modules/react-ssr-prepass/dist/react-ssr-prepass.es.js
+./node_modules/@trpc/next/dist/index.mjs
+./src/utils/api.ts
+
+./node_modules/scheduler/cjs/scheduler.production.min.js
+A Node.js API is used (setImmediate at line: 51) which is not supported in the Edge Runtime.
+Learn more: https://nextjs.org/docs/api-reference/edge-runtime
+
+Import trace for requested module:
+./node_modules/scheduler/cjs/scheduler.production.min.js
+./node_modules/scheduler/index.js
+./node_modules/react-dom/cjs/react-dom.production.min.js
+./node_modules/react-dom/index.js
+./node_modules/@tanstack/react-query/build/lib/reactBatchedUpdates.mjs
+./node_modules/@tanstack/react-query/build/lib/setBatchUpdatesFn.mjs
+./node_modules/@tanstack/react-query/build/lib/index.mjs
+./src/tools/server/configurations/tanstack/queryClient.tool.ts
+./src/utils/api.ts
+
+./node_modules/scheduler/cjs/scheduler.production.min.js
+A Node.js API is used (setImmediate at line: 51) which is not supported in the Edge Runtime.
+Learn more: https://nextjs.org/docs/api-reference/edge-runtime
+
+Import trace for requested module:
+./node_modules/scheduler/cjs/scheduler.production.min.js
+./node_modules/scheduler/index.js
+./node_modules/react-dom/cjs/react-dom.production.min.js
+./node_modules/react-dom/index.js
+./node_modules/@tanstack/react-query/build/lib/reactBatchedUpdates.mjs
+./node_modules/@tanstack/react-query/build/lib/setBatchUpdatesFn.mjs
+./node_modules/@tanstack/react-query/build/lib/index.mjs
+./src/tools/server/configurations/tanstack/queryClient.tool.ts
+./src/utils/api.ts
+
+./node_modules/scheduler/cjs/scheduler.production.min.js
+A Node.js API is used (MessageChannel at line: 120) which is not supported in the Edge Runtime.
+Learn more: https://nextjs.org/docs/api-reference/edge-runtime
+
+Import trace for requested module:
+./node_modules/scheduler/cjs/scheduler.production.min.js
+./node_modules/scheduler/index.js
+./node_modules/react-dom/cjs/react-dom.production.min.js
+./node_modules/react-dom/index.js
+./node_modules/@tanstack/react-query/build/lib/reactBatchedUpdates.mjs
+./node_modules/@tanstack/react-query/build/lib/setBatchUpdatesFn.mjs
+./node_modules/@tanstack/react-query/build/lib/index.mjs
+./src/tools/server/configurations/tanstack/queryClient.tool.ts
+./src/utils/api.ts
+
+./node_modules/scheduler/cjs/scheduler.production.min.js
+A Node.js API is used (MessageChannel at line: 121) which is not supported in the Edge Runtime.
+Learn more: https://nextjs.org/docs/api-reference/edge-runtime
+
+Import trace for requested module:
+./node_modules/scheduler/cjs/scheduler.production.min.js
+./node_modules/scheduler/index.js
+./node_modules/react-dom/cjs/react-dom.production.min.js
+./node_modules/react-dom/index.js
+./node_modules/@tanstack/react-query/build/lib/reactBatchedUpdates.mjs
+./node_modules/@tanstack/react-query/build/lib/setBatchUpdatesFn.mjs
+./node_modules/@tanstack/react-query/build/lib/index.mjs
+./src/tools/server/configurations/tanstack/queryClient.tool.ts
+./src/utils/api.ts
+
+   Collecting page data ...
+uncaughtException Error: listen EPERM: operation not permitted 0.0.0.0
+    at Server.setupListenHandle [as _listen2] (node:net:1919:21)
+    at listenInCluster (node:net:1998:12)
+    at Server.listen (node:net:2103:7)
+    at ipcPort (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr/node_modules/next/dist/server/lib/server-ipc/index.js:62:19)
+    at new Promise (<anonymous>)
+    at createIpcServer (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr/node_modules/next/dist/server/lib/server-ipc/index.js:61:27)
+    at initialize (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr/node_modules/next/dist/server/lib/incremental-cache-server.js:16:80)
+    at /home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr/node_modules/next/dist/build/index.js:775:155
+    at async Span.traceAsyncFn (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr/node_modules/next/dist/trace/trace.js:105:20)
+    at async build (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr/node_modules/next/dist/build/index.js:185:29) {
+  code: 'EPERM',
+  errno: -1,
+  syscall: 'listen',
+  address: '0.0.0.0'
+}

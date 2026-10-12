@@ -1,0 +1,51 @@
+➤ YN0000: ┌ Resolution step
+➤ YN0002: │ @mantine/core@npm:6.0.21 [bdc39] doesn't provide @emotion/react (p2634a), requested by @mantine/styles
+➤ YN0002: │ @mantine/next@npm:6.0.21 [bdc39] doesn't provide @emotion/react (pf04a7), requested by @mantine/styles
+➤ YN0002: │ @mantine/next@npm:6.0.21 [bdc39] doesn't provide @emotion/react (p9d76b), requested by @mantine/ssr
+➤ YN0002: │ @mantine/next@npm:6.0.21 [bdc39] doesn't provide @emotion/server (pe0775), requested by @mantine/ssr
+➤ YN0002: │ @nivo/annotations@npm:0.83.1 [6a2dc] doesn't provide react-dom (p04e08), requested by @react-spring/web
+➤ YN0002: │ @nivo/axes@npm:0.83.1 [6a2dc] doesn't provide react-dom (pd019a), requested by @react-spring/web
+➤ YN0002: │ @nivo/core@npm:0.83.1 [6a2dc] doesn't provide react-dom (p896ad), requested by @react-spring/web
+➤ YN0002: │ @nivo/core@npm:0.83.1 [a6114] doesn't provide react-dom (p3766b), requested by @react-spring/web
+➤ YN0002: │ @nivo/core@npm:0.83.1 [bdc39] doesn't provide react-dom (p478c3), requested by @react-spring/web
+➤ YN0002: │ @nivo/core@npm:0.83.1 [da4e9] doesn't provide react-dom (pbc155), requested by @react-spring/web
+➤ YN0002: │ @nivo/line@npm:0.83.1 [bdc39] doesn't provide react-dom (p46f9c), requested by @react-spring/web
+➤ YN0002: │ @nivo/tooltip@npm:0.83.1 doesn't provide prop-types (p94058), requested by @nivo/core
+➤ YN0002: │ @nivo/tooltip@npm:0.83.1 doesn't provide react (p3546e), requested by @react-spring/web
+➤ YN0002: │ @nivo/tooltip@npm:0.83.1 doesn't provide react (p5bf6e), requested by @nivo/core
+➤ YN0002: │ @nivo/tooltip@npm:0.83.1 doesn't provide react-dom (pf5853), requested by @react-spring/web
+➤ YN0002: │ @nivo/voronoi@npm:0.83.1 [6a2dc] doesn't provide prop-types (p20baf), requested by @nivo/core
+➤ YN0002: │ @tiptap/starter-kit@npm:2.1.12 doesn't provide @tiptap/pm (p6560d), requested by @tiptap/core
+➤ YN0002: │ @tiptap/starter-kit@npm:2.1.12 doesn't provide @tiptap/pm (p1fe9b), requested by @tiptap/extension-code-block
+➤ YN0002: │ @tiptap/starter-kit@npm:2.1.12 doesn't provide @tiptap/pm (pda644), requested by @tiptap/extension-dropcursor
+➤ YN0002: │ @tiptap/starter-kit@npm:2.1.12 doesn't provide @tiptap/pm (pa1b36), requested by @tiptap/extension-gapcursor
+➤ YN0002: │ @tiptap/starter-kit@npm:2.1.12 doesn't provide @tiptap/pm (p6fff9), requested by @tiptap/extension-history
+➤ YN0002: │ @tiptap/starter-kit@npm:2.1.12 doesn't provide @tiptap/pm (p85123), requested by @tiptap/extension-horizontal-rule
+➤ YN0002: │ homarr@workspace:. doesn't provide @tiptap/core (pa4b89), requested by @tiptap/extension-color
+➤ YN0002: │ homarr@workspace:. doesn't provide @tiptap/core (p4c47b), requested by @tiptap/extension-highlight
+➤ YN0002: │ homarr@workspace:. doesn't provide @tiptap/core (p0cf40), requested by @tiptap/extension-image
+➤ YN0002: │ homarr@workspace:. doesn't provide @tiptap/core (p17aca), requested by @tiptap/extension-link
+➤ YN0002: │ homarr@workspace:. doesn't provide @tiptap/core (pa5ef2), requested by @tiptap/extension-table-cell
+➤ YN0002: │ homarr@workspace:. doesn't provide @tiptap/core (pc1841), requested by @tiptap/extension-table-header
+➤ YN0002: │ homarr@workspace:. doesn't provide @tiptap/core (peac23), requested by @tiptap/extension-table-row
+➤ YN0002: │ homarr@workspace:. doesn't provide @tiptap/core (p58f5e), requested by @tiptap/extension-table
+➤ YN0002: │ homarr@workspace:. doesn't provide @tiptap/core (pee198), requested by @tiptap/extension-task-item
+➤ YN0002: │ homarr@workspace:. doesn't provide @tiptap/core (p4353c), requested by @tiptap/extension-task-list
+➤ YN0002: │ homarr@workspace:. doesn't provide @tiptap/core (paa6b2), requested by @tiptap/extension-text-align
+➤ YN0002: │ homarr@workspace:. doesn't provide @tiptap/core (p50fe6), requested by @tiptap/extension-text-style
+➤ YN0002: │ homarr@workspace:. doesn't provide @tiptap/core (p939b8), requested by @tiptap/extension-underline
+➤ YN0002: │ homarr@workspace:. doesn't provide @tiptap/core (p3abb8), requested by @tiptap/react
+➤ YN0060: │ homarr@workspace:. provides i18next (pd61c8) with version 22.5.1, which doesn't satisfy what next-i18next requests
+➤ YN0002: │ homarr@workspace:. doesn't provide prop-types (p44d56), requested by @nivo/core
+➤ YN0060: │ homarr@workspace:. provides react-i18next (pfec32) with version 12.3.1, which doesn't satisfy what next-i18next requests
+➤ YN0002: │ homarr@workspace:. doesn't provide vite (pbf76b), requested by @vitejs/plugin-react
+➤ YN0000: │ Some peer dependencies are incorrectly met; run yarn explain peer-requirements <hash> for details, where <hash> is the six-letter p-prefixed code
+➤ YN0000: └ Completed in 0s 260ms
+➤ YN0000: ┌ Fetch step
+➤ YN0013: │ fily-publish-gridstack@npm:0.0.13 can't be found in the cache and will be fetched from the remote registry
+➤ YN0035: │ fily-publish-gridstack@npm:0.0.13: The remote server failed to provide the requested resource
+➤ YN0035: │   Response Code: 404 (Not Found)
+➤ YN0035: │   Request Method: GET
+➤ YN0035: │   Request URL: https://registry.yarnpkg.com/fily-publish-gridstack/-/fily-publish-gridstack-0.0.13.tgz
+➤ YN0000: └ Completed in 0s 826ms
+➤ YN0000: Failed with errors in 1s 194ms
