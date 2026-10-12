@@ -1,0 +1,860 @@
+   Skipping linting
+   Checking validity of types ...
+   Creating an optimized production build ...
+ ✓ Compiled successfully
+   Collecting page data ...
+Warning: You have opted-out of Automatic Static Optimization due to `getInitialProps` in `pages/_app`. This does not opt-out pages with `getStaticProps`
+Read more: https://nextjs.org/docs/messages/opt-out-auto-static-optimization
+
+   Generating static pages (0/64) ...
+Static worker unexpectedly exited with code: null and signal: SIGTERM
+Static worker unexpectedly exited with code: null and signal: SIGTERM
+Static worker unexpectedly exited with code: null and signal: SIGTERM
+Static worker unexpectedly exited with code: null and signal: SIGTERM
+Static worker unexpectedly exited with code: null and signal: SIGTERM
+Static worker unexpectedly exited with code: null and signal: SIGTERM
+Static worker unexpectedly exited with code: null and signal: SIGTERM
+Static worker unexpectedly exited with code: null and signal: SIGTERM
+Static worker unexpectedly exited with code: null and signal: SIGTERM
+Static worker unexpectedly exited with code: null and signal: SIGTERM
+Static worker unexpectedly exited with code: null and signal: SIGTERM
+ ⚠ Restarted static page generation for /en/401 because it took more than 60 seconds
+ ⚠ See more info here https://nextjs.org/docs/messages/static-page-generation-timeout
+ ⚠ Restarted static page generation for /ar/401 because it took more than 60 seconds
+ ⚠ Restarted static page generation for /cn/401 because it took more than 60 seconds
+ ⚠ Restarted static page generation for /cr/401 because it took more than 60 seconds
+ ⚠ Restarted static page generation for /cs/401 because it took more than 60 seconds
+ ⚠ Restarted static page generation for /da/401 because it took more than 60 seconds
+ ⚠ Restarted static page generation for /de/401 because it took more than 60 seconds
+ ⚠ Restarted static page generation for /el/401 because it took more than 60 seconds
+ ⚠ Restarted static page generation for /es/401 because it took more than 60 seconds
+ ⚠ Restarted static page generation for /fr/401 because it took more than 60 seconds
+ ⚠ Restarted static page generation for /he/401 because it took more than 60 seconds
+ ⚠ Restarted static page generation for /hr/401 because it took more than 60 seconds
+ ⚠ Restarted static page generation for /hu/401 because it took more than 60 seconds
+ ⚠ Restarted static page generation for /it/401 because it took more than 60 seconds
+ ⚠ Restarted static page generation for /ja/401 because it took more than 60 seconds
+ ⚠ Restarted static page generation for /ko/401 because it took more than 60 seconds
+ ⚠ Restarted static page generation for /lv/401 because it took more than 60 seconds
+ ⚠ Restarted static page generation for /nl/401 because it took more than 60 seconds
+ ⚠ Restarted static page generation for /no/401 because it took more than 60 seconds
+ ⚠ Restarted static page generation for /pl/401 because it took more than 60 seconds
+ ⚠ Restarted static page generation for /pt/401 because it took more than 60 seconds
+ ⚠ Restarted static page generation for /ru/401 because it took more than 60 seconds
+ ⚠ Restarted static page generation for /sk/401 because it took more than 60 seconds
+ ⚠ Restarted static page generation for /sl/401 because it took more than 60 seconds
+ ⚠ Restarted static page generation for /sv/401 because it took more than 60 seconds
+ ⚠ Restarted static page generation for /tr/401 because it took more than 60 seconds
+ ⚠ Restarted static page generation for /tw/401 because it took more than 60 seconds
+ ⚠ Restarted static page generation for /uk/401 because it took more than 60 seconds
+ ⚠ Restarted static page generation for /vi/401 because it took more than 60 seconds
+ ⚠ Restarted static page generation for /et/401 because it took more than 60 seconds
+ ⚠ Restarted static page generation for /lt/401 because it took more than 60 seconds
+ ⚠ Restarted static page generation for /ro/401 because it took more than 60 seconds
+ ⚠ Restarted static page generation for /en/404 because it took more than 60 seconds
+ ⚠ Restarted static page generation for /ar/404 because it took more than 60 seconds
+ ⚠ Restarted static page generation for /cn/404 because it took more than 60 seconds
+ ⚠ Restarted static page generation for /cr/404 because it took more than 60 seconds
+ ⚠ Restarted static page generation for /cs/404 because it took more than 60 seconds
+ ⚠ Restarted static page generation for /da/404 because it took more than 60 seconds
+ ⚠ Restarted static page generation for /de/404 because it took more than 60 seconds
+ ⚠ Restarted static page generation for /el/404 because it took more than 60 seconds
+ ⚠ Restarted static page generation for /es/404 because it took more than 60 seconds
+ ⚠ Restarted static page generation for /fr/404 because it took more than 60 seconds
+ ⚠ Restarted static page generation for /he/404 because it took more than 60 seconds
+ ⚠ Restarted static page generation for /hr/404 because it took more than 60 seconds
+ ⚠ Restarted static page generation for /hu/404 because it took more than 60 seconds
+ ⚠ Restarted static page generation for /it/404 because it took more than 60 seconds
+ ⚠ Restarted static page generation for /ja/404 because it took more than 60 seconds
+ ⚠ Restarted static page generation for /ko/404 because it took more than 60 seconds
+ ⚠ Restarted static page generation for /lv/404 because it took more than 60 seconds
+ ⚠ Restarted static page generation for /nl/404 because it took more than 60 seconds
+ ⚠ Restarted static page generation for /no/404 because it took more than 60 seconds
+ ⚠ Restarted static page generation for /pl/404 because it took more than 60 seconds
+ ⚠ Restarted static page generation for /pt/404 because it took more than 60 seconds
+ ⚠ Restarted static page generation for /ru/404 because it took more than 60 seconds
+ ⚠ Restarted static page generation for /sk/404 because it took more than 60 seconds
+ ⚠ Restarted static page generation for /sl/404 because it took more than 60 seconds
+ ⚠ Restarted static page generation for /sv/404 because it took more than 60 seconds
+ ⚠ Restarted static page generation for /tr/404 because it took more than 60 seconds
+ ⚠ Restarted static page generation for /tw/404 because it took more than 60 seconds
+ ⚠ Restarted static page generation for /uk/404 because it took more than 60 seconds
+ ⚠ Restarted static page generation for /vi/404 because it took more than 60 seconds
+ ⚠ Restarted static page generation for /et/404 because it took more than 60 seconds
+ ⚠ Restarted static page generation for /lt/404 because it took more than 60 seconds
+ ⚠ Restarted static page generation for /ro/404 because it took more than 60 seconds
+
+Error occurred prerendering page "/cr/401". Read more: https://nextjs.org/docs/messages/prerender-error
+PageNotFoundError: Cannot find module for page: /401
+    at getPagePath (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/require.js:94:15)
+    at requirePage (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/require.js:99:22)
+    at /home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/load-components.js:59:84
+    at async loadComponentsImpl (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/load-components.js:59:26)
+    at async exportPageImpl (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:163:28)
+    at async /home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:219:16
+    at async Span.traceAsyncFn (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/trace/trace.js:105:20)
+    at async Object.exportPage (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:218:20)
+   Generating static pages (1/64) 
+
+Error occurred prerendering page "/hr/401". Read more: https://nextjs.org/docs/messages/prerender-error
+PageNotFoundError: Cannot find module for page: /401
+    at getPagePath (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/require.js:94:15)
+    at requirePage (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/require.js:99:22)
+    at /home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/load-components.js:59:84
+    at async loadComponentsImpl (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/load-components.js:59:26)
+    at async exportPageImpl (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:163:28)
+    at async /home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:219:16
+    at async Span.traceAsyncFn (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/trace/trace.js:105:20)
+    at async Object.exportPage (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:218:20)
+
+Error occurred prerendering page "/hu/401". Read more: https://nextjs.org/docs/messages/prerender-error
+PageNotFoundError: Cannot find module for page: /401
+    at getPagePath (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/require.js:94:15)
+    at requirePage (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/require.js:99:22)
+    at /home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/load-components.js:59:84
+    at async loadComponentsImpl (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/load-components.js:59:26)
+    at async exportPageImpl (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:163:28)
+    at async /home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:219:16
+    at async Span.traceAsyncFn (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/trace/trace.js:105:20)
+    at async Object.exportPage (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:218:20)
+
+Error occurred prerendering page "/it/401". Read more: https://nextjs.org/docs/messages/prerender-error
+PageNotFoundError: Cannot find module for page: /401
+    at getPagePath (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/require.js:94:15)
+    at requirePage (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/require.js:99:22)
+    at /home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/load-components.js:59:84
+    at async loadComponentsImpl (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/load-components.js:59:26)
+    at async exportPageImpl (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:163:28)
+    at async /home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:219:16
+    at async Span.traceAsyncFn (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/trace/trace.js:105:20)
+    at async Object.exportPage (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:218:20)
+
+Error occurred prerendering page "/ja/401". Read more: https://nextjs.org/docs/messages/prerender-error
+PageNotFoundError: Cannot find module for page: /401
+    at getPagePath (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/require.js:94:15)
+    at requirePage (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/require.js:99:22)
+    at /home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/load-components.js:59:84
+    at async loadComponentsImpl (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/load-components.js:59:26)
+    at async exportPageImpl (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:163:28)
+    at async /home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:219:16
+    at async Span.traceAsyncFn (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/trace/trace.js:105:20)
+    at async Object.exportPage (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:218:20)
+
+Error occurred prerendering page "/ko/401". Read more: https://nextjs.org/docs/messages/prerender-error
+PageNotFoundError: Cannot find module for page: /401
+    at getPagePath (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/require.js:94:15)
+    at requirePage (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/require.js:99:22)
+    at /home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/load-components.js:59:84
+    at async loadComponentsImpl (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/load-components.js:59:26)
+    at async exportPageImpl (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:163:28)
+    at async /home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:219:16
+    at async Span.traceAsyncFn (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/trace/trace.js:105:20)
+    at async Object.exportPage (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:218:20)
+
+Error occurred prerendering page "/lv/401". Read more: https://nextjs.org/docs/messages/prerender-error
+PageNotFoundError: Cannot find module for page: /401
+    at getPagePath (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/require.js:94:15)
+    at requirePage (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/require.js:99:22)
+    at /home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/load-components.js:59:84
+    at async loadComponentsImpl (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/load-components.js:59:26)
+    at async exportPageImpl (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:163:28)
+    at async /home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:219:16
+    at async Span.traceAsyncFn (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/trace/trace.js:105:20)
+    at async Object.exportPage (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:218:20)
+
+Error occurred prerendering page "/nl/401". Read more: https://nextjs.org/docs/messages/prerender-error
+PageNotFoundError: Cannot find module for page: /401
+    at getPagePath (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/require.js:94:15)
+    at requirePage (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/require.js:99:22)
+    at /home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/load-components.js:59:84
+    at async loadComponentsImpl (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/load-components.js:59:26)
+    at async exportPageImpl (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:163:28)
+    at async /home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:219:16
+    at async Span.traceAsyncFn (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/trace/trace.js:105:20)
+    at async Object.exportPage (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:218:20)
+
+Error occurred prerendering page "/no/401". Read more: https://nextjs.org/docs/messages/prerender-error
+PageNotFoundError: Cannot find module for page: /401
+    at getPagePath (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/require.js:94:15)
+    at requirePage (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/require.js:99:22)
+    at /home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/load-components.js:59:84
+    at async loadComponentsImpl (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/load-components.js:59:26)
+    at async exportPageImpl (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:163:28)
+    at async /home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:219:16
+    at async Span.traceAsyncFn (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/trace/trace.js:105:20)
+    at async Object.exportPage (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:218:20)
+
+Error occurred prerendering page "/pl/401". Read more: https://nextjs.org/docs/messages/prerender-error
+PageNotFoundError: Cannot find module for page: /401
+    at getPagePath (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/require.js:94:15)
+    at requirePage (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/require.js:99:22)
+    at /home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/load-components.js:59:84
+    at async loadComponentsImpl (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/load-components.js:59:26)
+    at async exportPageImpl (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:163:28)
+    at async /home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:219:16
+    at async Span.traceAsyncFn (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/trace/trace.js:105:20)
+    at async Object.exportPage (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:218:20)
+
+Error occurred prerendering page "/pt/401". Read more: https://nextjs.org/docs/messages/prerender-error
+PageNotFoundError: Cannot find module for page: /401
+    at getPagePath (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/require.js:94:15)
+    at requirePage (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/require.js:99:22)
+    at /home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/load-components.js:59:84
+    at async loadComponentsImpl (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/load-components.js:59:26)
+    at async exportPageImpl (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:163:28)
+    at async /home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:219:16
+    at async Span.traceAsyncFn (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/trace/trace.js:105:20)
+    at async Object.exportPage (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:218:20)
+
+Error occurred prerendering page "/ru/401". Read more: https://nextjs.org/docs/messages/prerender-error
+PageNotFoundError: Cannot find module for page: /401
+    at getPagePath (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/require.js:94:15)
+    at requirePage (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/require.js:99:22)
+    at /home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/load-components.js:59:84
+    at async loadComponentsImpl (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/load-components.js:59:26)
+    at async exportPageImpl (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:163:28)
+    at async /home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:219:16
+    at async Span.traceAsyncFn (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/trace/trace.js:105:20)
+    at async Object.exportPage (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:218:20)
+
+Error occurred prerendering page "/sk/401". Read more: https://nextjs.org/docs/messages/prerender-error
+PageNotFoundError: Cannot find module for page: /401
+    at getPagePath (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/require.js:94:15)
+    at requirePage (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/require.js:99:22)
+    at /home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/load-components.js:59:84
+    at async loadComponentsImpl (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/load-components.js:59:26)
+    at async exportPageImpl (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:163:28)
+    at async /home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:219:16
+    at async Span.traceAsyncFn (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/trace/trace.js:105:20)
+    at async Object.exportPage (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:218:20)
+
+Error occurred prerendering page "/sl/401". Read more: https://nextjs.org/docs/messages/prerender-error
+PageNotFoundError: Cannot find module for page: /401
+    at getPagePath (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/require.js:94:15)
+    at requirePage (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/require.js:99:22)
+    at /home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/load-components.js:59:84
+    at async loadComponentsImpl (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/load-components.js:59:26)
+    at async exportPageImpl (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:163:28)
+    at async /home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:219:16
+    at async Span.traceAsyncFn (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/trace/trace.js:105:20)
+    at async Object.exportPage (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:218:20)
+
+Error occurred prerendering page "/sv/401". Read more: https://nextjs.org/docs/messages/prerender-error
+PageNotFoundError: Cannot find module for page: /401
+    at getPagePath (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/require.js:94:15)
+    at requirePage (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/require.js:99:22)
+    at /home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/load-components.js:59:84
+    at async loadComponentsImpl (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/load-components.js:59:26)
+    at async exportPageImpl (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:163:28)
+    at async /home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:219:16
+    at async Span.traceAsyncFn (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/trace/trace.js:105:20)
+    at async Object.exportPage (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:218:20)
+
+Error occurred prerendering page "/tr/401". Read more: https://nextjs.org/docs/messages/prerender-error
+PageNotFoundError: Cannot find module for page: /401
+    at getPagePath (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/require.js:94:15)
+    at requirePage (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/require.js:99:22)
+    at /home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/load-components.js:59:84
+    at async loadComponentsImpl (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/load-components.js:59:26)
+    at async exportPageImpl (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:163:28)
+    at async /home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:219:16
+    at async Span.traceAsyncFn (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/trace/trace.js:105:20)
+    at async Object.exportPage (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:218:20)
+   Generating static pages (16/64) 
+
+Error occurred prerendering page "/tw/401". Read more: https://nextjs.org/docs/messages/prerender-error
+PageNotFoundError: Cannot find module for page: /401
+    at getPagePath (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/require.js:94:15)
+    at requirePage (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/require.js:99:22)
+    at /home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/load-components.js:59:84
+    at async loadComponentsImpl (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/load-components.js:59:26)
+    at async exportPageImpl (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:163:28)
+    at async /home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:219:16
+    at async Span.traceAsyncFn (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/trace/trace.js:105:20)
+    at async Object.exportPage (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:218:20)
+
+Error occurred prerendering page "/uk/401". Read more: https://nextjs.org/docs/messages/prerender-error
+PageNotFoundError: Cannot find module for page: /401
+    at getPagePath (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/require.js:94:15)
+    at requirePage (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/require.js:99:22)
+    at /home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/load-components.js:59:84
+    at async loadComponentsImpl (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/load-components.js:59:26)
+    at async exportPageImpl (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:163:28)
+    at async /home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:219:16
+    at async Span.traceAsyncFn (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/trace/trace.js:105:20)
+    at async Object.exportPage (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:218:20)
+
+Error occurred prerendering page "/vi/401". Read more: https://nextjs.org/docs/messages/prerender-error
+PageNotFoundError: Cannot find module for page: /401
+    at getPagePath (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/require.js:94:15)
+    at requirePage (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/require.js:99:22)
+    at /home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/load-components.js:59:84
+    at async loadComponentsImpl (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/load-components.js:59:26)
+    at async exportPageImpl (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:163:28)
+    at async /home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:219:16
+    at async Span.traceAsyncFn (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/trace/trace.js:105:20)
+    at async Object.exportPage (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:218:20)
+
+Error occurred prerendering page "/et/401". Read more: https://nextjs.org/docs/messages/prerender-error
+PageNotFoundError: Cannot find module for page: /401
+    at getPagePath (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/require.js:94:15)
+    at requirePage (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/require.js:99:22)
+    at /home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/load-components.js:59:84
+    at async loadComponentsImpl (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/load-components.js:59:26)
+    at async exportPageImpl (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:163:28)
+    at async /home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:219:16
+    at async Span.traceAsyncFn (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/trace/trace.js:105:20)
+    at async Object.exportPage (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:218:20)
+
+Error occurred prerendering page "/lt/401". Read more: https://nextjs.org/docs/messages/prerender-error
+PageNotFoundError: Cannot find module for page: /401
+    at getPagePath (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/require.js:94:15)
+    at requirePage (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/require.js:99:22)
+    at /home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/load-components.js:59:84
+    at async loadComponentsImpl (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/load-components.js:59:26)
+    at async exportPageImpl (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:163:28)
+    at async /home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:219:16
+    at async Span.traceAsyncFn (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/trace/trace.js:105:20)
+    at async Object.exportPage (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:218:20)
+
+Error occurred prerendering page "/ro/401". Read more: https://nextjs.org/docs/messages/prerender-error
+PageNotFoundError: Cannot find module for page: /401
+    at getPagePath (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/require.js:94:15)
+    at requirePage (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/require.js:99:22)
+    at /home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/load-components.js:59:84
+    at async loadComponentsImpl (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/load-components.js:59:26)
+    at async exportPageImpl (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:163:28)
+    at async /home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:219:16
+    at async Span.traceAsyncFn (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/trace/trace.js:105:20)
+    at async Object.exportPage (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:218:20)
+
+Error occurred prerendering page "/en/404". Read more: https://nextjs.org/docs/messages/prerender-error
+PageNotFoundError: Cannot find module for page: /404
+    at getPagePath (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/require.js:94:15)
+    at requirePage (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/require.js:99:22)
+    at /home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/load-components.js:59:84
+    at async loadComponentsImpl (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/load-components.js:59:26)
+    at async exportPageImpl (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:163:28)
+    at async /home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:219:16
+    at async Span.traceAsyncFn (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/trace/trace.js:105:20)
+    at async Object.exportPage (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:218:20)
+
+Error occurred prerendering page "/ar/404". Read more: https://nextjs.org/docs/messages/prerender-error
+PageNotFoundError: Cannot find module for page: /404
+    at getPagePath (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/require.js:94:15)
+    at requirePage (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/require.js:99:22)
+    at /home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/load-components.js:59:84
+    at async loadComponentsImpl (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/load-components.js:59:26)
+    at async exportPageImpl (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:163:28)
+    at async /home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:219:16
+    at async Span.traceAsyncFn (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/trace/trace.js:105:20)
+    at async Object.exportPage (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:218:20)
+
+Error occurred prerendering page "/cn/404". Read more: https://nextjs.org/docs/messages/prerender-error
+PageNotFoundError: Cannot find module for page: /404
+    at getPagePath (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/require.js:94:15)
+    at requirePage (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/require.js:99:22)
+    at /home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/load-components.js:59:84
+    at async loadComponentsImpl (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/load-components.js:59:26)
+    at async exportPageImpl (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:163:28)
+    at async /home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:219:16
+    at async Span.traceAsyncFn (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/trace/trace.js:105:20)
+    at async Object.exportPage (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:218:20)
+
+Error occurred prerendering page "/cr/404". Read more: https://nextjs.org/docs/messages/prerender-error
+PageNotFoundError: Cannot find module for page: /404
+    at getPagePath (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/require.js:94:15)
+    at requirePage (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/require.js:99:22)
+    at /home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/load-components.js:59:84
+    at async loadComponentsImpl (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/load-components.js:59:26)
+    at async exportPageImpl (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:163:28)
+    at async /home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:219:16
+    at async Span.traceAsyncFn (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/trace/trace.js:105:20)
+    at async Object.exportPage (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:218:20)
+
+Error occurred prerendering page "/cs/404". Read more: https://nextjs.org/docs/messages/prerender-error
+PageNotFoundError: Cannot find module for page: /404
+    at getPagePath (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/require.js:94:15)
+    at requirePage (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/require.js:99:22)
+    at /home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/load-components.js:59:84
+    at async loadComponentsImpl (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/load-components.js:59:26)
+    at async exportPageImpl (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:163:28)
+    at async /home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:219:16
+    at async Span.traceAsyncFn (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/trace/trace.js:105:20)
+    at async Object.exportPage (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:218:20)
+
+Error occurred prerendering page "/da/404". Read more: https://nextjs.org/docs/messages/prerender-error
+PageNotFoundError: Cannot find module for page: /404
+    at getPagePath (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/require.js:94:15)
+    at requirePage (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/require.js:99:22)
+    at /home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/load-components.js:59:84
+    at async loadComponentsImpl (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/load-components.js:59:26)
+    at async exportPageImpl (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:163:28)
+    at async /home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:219:16
+    at async Span.traceAsyncFn (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/trace/trace.js:105:20)
+    at async Object.exportPage (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:218:20)
+
+Error occurred prerendering page "/de/404". Read more: https://nextjs.org/docs/messages/prerender-error
+PageNotFoundError: Cannot find module for page: /404
+    at getPagePath (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/require.js:94:15)
+    at requirePage (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/require.js:99:22)
+    at /home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/load-components.js:59:84
+    at async loadComponentsImpl (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/load-components.js:59:26)
+    at async exportPageImpl (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:163:28)
+    at async /home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:219:16
+    at async Span.traceAsyncFn (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/trace/trace.js:105:20)
+    at async Object.exportPage (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:218:20)
+
+Error occurred prerendering page "/el/404". Read more: https://nextjs.org/docs/messages/prerender-error
+PageNotFoundError: Cannot find module for page: /404
+    at getPagePath (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/require.js:94:15)
+    at requirePage (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/require.js:99:22)
+    at /home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/load-components.js:59:84
+    at async loadComponentsImpl (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/load-components.js:59:26)
+    at async exportPageImpl (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:163:28)
+    at async /home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:219:16
+    at async Span.traceAsyncFn (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/trace/trace.js:105:20)
+    at async Object.exportPage (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:218:20)
+
+Error occurred prerendering page "/es/404". Read more: https://nextjs.org/docs/messages/prerender-error
+PageNotFoundError: Cannot find module for page: /404
+    at getPagePath (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/require.js:94:15)
+    at requirePage (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/require.js:99:22)
+    at /home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/load-components.js:59:84
+    at async loadComponentsImpl (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/load-components.js:59:26)
+    at async exportPageImpl (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:163:28)
+    at async /home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:219:16
+    at async Span.traceAsyncFn (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/trace/trace.js:105:20)
+    at async Object.exportPage (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:218:20)
+
+Error occurred prerendering page "/fr/404". Read more: https://nextjs.org/docs/messages/prerender-error
+PageNotFoundError: Cannot find module for page: /404
+    at getPagePath (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/require.js:94:15)
+    at requirePage (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/require.js:99:22)
+    at /home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/load-components.js:59:84
+    at async loadComponentsImpl (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/load-components.js:59:26)
+    at async exportPageImpl (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:163:28)
+    at async /home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:219:16
+    at async Span.traceAsyncFn (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/trace/trace.js:105:20)
+    at async Object.exportPage (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:218:20)
+   Generating static pages (32/64) 
+
+Error occurred prerendering page "/he/404". Read more: https://nextjs.org/docs/messages/prerender-error
+PageNotFoundError: Cannot find module for page: /404
+    at getPagePath (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/require.js:94:15)
+    at requirePage (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/require.js:99:22)
+    at /home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/load-components.js:59:84
+    at async loadComponentsImpl (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/load-components.js:59:26)
+    at async exportPageImpl (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:163:28)
+    at async /home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:219:16
+    at async Span.traceAsyncFn (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/trace/trace.js:105:20)
+    at async Object.exportPage (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:218:20)
+
+Error occurred prerendering page "/hr/404". Read more: https://nextjs.org/docs/messages/prerender-error
+PageNotFoundError: Cannot find module for page: /404
+    at getPagePath (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/require.js:94:15)
+    at requirePage (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/require.js:99:22)
+    at /home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/load-components.js:59:84
+    at async loadComponentsImpl (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/load-components.js:59:26)
+    at async exportPageImpl (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:163:28)
+    at async /home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:219:16
+    at async Span.traceAsyncFn (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/trace/trace.js:105:20)
+    at async Object.exportPage (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:218:20)
+
+Error occurred prerendering page "/hu/404". Read more: https://nextjs.org/docs/messages/prerender-error
+PageNotFoundError: Cannot find module for page: /404
+    at getPagePath (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/require.js:94:15)
+    at requirePage (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/require.js:99:22)
+    at /home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/load-components.js:59:84
+    at async loadComponentsImpl (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/load-components.js:59:26)
+    at async exportPageImpl (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:163:28)
+    at async /home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:219:16
+    at async Span.traceAsyncFn (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/trace/trace.js:105:20)
+    at async Object.exportPage (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:218:20)
+
+Error occurred prerendering page "/it/404". Read more: https://nextjs.org/docs/messages/prerender-error
+PageNotFoundError: Cannot find module for page: /404
+    at getPagePath (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/require.js:94:15)
+    at requirePage (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/require.js:99:22)
+    at /home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/load-components.js:59:84
+    at async loadComponentsImpl (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/load-components.js:59:26)
+    at async exportPageImpl (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:163:28)
+    at async /home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:219:16
+    at async Span.traceAsyncFn (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/trace/trace.js:105:20)
+    at async Object.exportPage (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:218:20)
+
+Error occurred prerendering page "/ja/404". Read more: https://nextjs.org/docs/messages/prerender-error
+PageNotFoundError: Cannot find module for page: /404
+    at getPagePath (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/require.js:94:15)
+    at requirePage (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/require.js:99:22)
+    at /home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/load-components.js:59:84
+    at async loadComponentsImpl (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/load-components.js:59:26)
+    at async exportPageImpl (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:163:28)
+    at async /home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:219:16
+    at async Span.traceAsyncFn (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/trace/trace.js:105:20)
+    at async Object.exportPage (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:218:20)
+
+Error occurred prerendering page "/ko/404". Read more: https://nextjs.org/docs/messages/prerender-error
+PageNotFoundError: Cannot find module for page: /404
+    at getPagePath (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/require.js:94:15)
+    at requirePage (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/require.js:99:22)
+    at /home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/load-components.js:59:84
+    at async loadComponentsImpl (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/load-components.js:59:26)
+    at async exportPageImpl (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:163:28)
+    at async /home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:219:16
+    at async Span.traceAsyncFn (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/trace/trace.js:105:20)
+    at async Object.exportPage (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:218:20)
+
+Error occurred prerendering page "/lv/404". Read more: https://nextjs.org/docs/messages/prerender-error
+PageNotFoundError: Cannot find module for page: /404
+    at getPagePath (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/require.js:94:15)
+    at requirePage (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/require.js:99:22)
+    at /home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/load-components.js:59:84
+    at async loadComponentsImpl (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/load-components.js:59:26)
+    at async exportPageImpl (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:163:28)
+    at async /home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:219:16
+    at async Span.traceAsyncFn (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/trace/trace.js:105:20)
+    at async Object.exportPage (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:218:20)
+
+Error occurred prerendering page "/nl/404". Read more: https://nextjs.org/docs/messages/prerender-error
+PageNotFoundError: Cannot find module for page: /404
+    at getPagePath (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/require.js:94:15)
+    at requirePage (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/require.js:99:22)
+    at /home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/load-components.js:59:84
+    at async loadComponentsImpl (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/load-components.js:59:26)
+    at async exportPageImpl (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:163:28)
+    at async /home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:219:16
+    at async Span.traceAsyncFn (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/trace/trace.js:105:20)
+    at async Object.exportPage (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:218:20)
+
+Error occurred prerendering page "/no/404". Read more: https://nextjs.org/docs/messages/prerender-error
+PageNotFoundError: Cannot find module for page: /404
+    at getPagePath (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/require.js:94:15)
+    at requirePage (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/require.js:99:22)
+    at /home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/load-components.js:59:84
+    at async loadComponentsImpl (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/load-components.js:59:26)
+    at async exportPageImpl (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:163:28)
+    at async /home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:219:16
+    at async Span.traceAsyncFn (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/trace/trace.js:105:20)
+    at async Object.exportPage (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:218:20)
+
+Error occurred prerendering page "/pl/404". Read more: https://nextjs.org/docs/messages/prerender-error
+PageNotFoundError: Cannot find module for page: /404
+    at getPagePath (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/require.js:94:15)
+    at requirePage (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/require.js:99:22)
+    at /home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/load-components.js:59:84
+    at async loadComponentsImpl (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/load-components.js:59:26)
+    at async exportPageImpl (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:163:28)
+    at async /home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:219:16
+    at async Span.traceAsyncFn (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/trace/trace.js:105:20)
+    at async Object.exportPage (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:218:20)
+
+Error occurred prerendering page "/pt/404". Read more: https://nextjs.org/docs/messages/prerender-error
+PageNotFoundError: Cannot find module for page: /404
+    at getPagePath (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/require.js:94:15)
+    at requirePage (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/require.js:99:22)
+    at /home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/load-components.js:59:84
+    at async loadComponentsImpl (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/load-components.js:59:26)
+    at async exportPageImpl (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:163:28)
+    at async /home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:219:16
+    at async Span.traceAsyncFn (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/trace/trace.js:105:20)
+    at async Object.exportPage (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:218:20)
+
+Error occurred prerendering page "/ru/404". Read more: https://nextjs.org/docs/messages/prerender-error
+PageNotFoundError: Cannot find module for page: /404
+    at getPagePath (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/require.js:94:15)
+    at requirePage (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/require.js:99:22)
+    at /home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/load-components.js:59:84
+    at async loadComponentsImpl (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/load-components.js:59:26)
+    at async exportPageImpl (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:163:28)
+    at async /home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:219:16
+    at async Span.traceAsyncFn (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/trace/trace.js:105:20)
+    at async Object.exportPage (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:218:20)
+
+Error occurred prerendering page "/sk/404". Read more: https://nextjs.org/docs/messages/prerender-error
+PageNotFoundError: Cannot find module for page: /404
+    at getPagePath (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/require.js:94:15)
+    at requirePage (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/require.js:99:22)
+    at /home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/load-components.js:59:84
+    at async loadComponentsImpl (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/load-components.js:59:26)
+    at async exportPageImpl (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:163:28)
+    at async /home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:219:16
+    at async Span.traceAsyncFn (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/trace/trace.js:105:20)
+    at async Object.exportPage (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:218:20)
+
+Error occurred prerendering page "/sl/404". Read more: https://nextjs.org/docs/messages/prerender-error
+PageNotFoundError: Cannot find module for page: /404
+    at getPagePath (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/require.js:94:15)
+    at requirePage (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/require.js:99:22)
+    at /home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/load-components.js:59:84
+    at async loadComponentsImpl (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/load-components.js:59:26)
+    at async exportPageImpl (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:163:28)
+    at async /home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:219:16
+    at async Span.traceAsyncFn (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/trace/trace.js:105:20)
+    at async Object.exportPage (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:218:20)
+
+Error occurred prerendering page "/sv/404". Read more: https://nextjs.org/docs/messages/prerender-error
+PageNotFoundError: Cannot find module for page: /404
+    at getPagePath (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/require.js:94:15)
+    at requirePage (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/require.js:99:22)
+    at /home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/load-components.js:59:84
+    at async loadComponentsImpl (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/load-components.js:59:26)
+    at async exportPageImpl (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:163:28)
+    at async /home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:219:16
+    at async Span.traceAsyncFn (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/trace/trace.js:105:20)
+    at async Object.exportPage (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:218:20)
+
+Error occurred prerendering page "/tr/404". Read more: https://nextjs.org/docs/messages/prerender-error
+PageNotFoundError: Cannot find module for page: /404
+    at getPagePath (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/require.js:94:15)
+    at requirePage (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/require.js:99:22)
+    at /home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/load-components.js:59:84
+    at async loadComponentsImpl (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/load-components.js:59:26)
+    at async exportPageImpl (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:163:28)
+    at async /home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:219:16
+    at async Span.traceAsyncFn (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/trace/trace.js:105:20)
+    at async Object.exportPage (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:218:20)
+   Generating static pages (48/64) 
+
+Error occurred prerendering page "/tw/404". Read more: https://nextjs.org/docs/messages/prerender-error
+PageNotFoundError: Cannot find module for page: /404
+    at getPagePath (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/require.js:94:15)
+    at requirePage (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/require.js:99:22)
+    at /home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/load-components.js:59:84
+    at async loadComponentsImpl (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/load-components.js:59:26)
+    at async exportPageImpl (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:163:28)
+    at async /home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:219:16
+    at async Span.traceAsyncFn (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/trace/trace.js:105:20)
+    at async Object.exportPage (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:218:20)
+
+Error occurred prerendering page "/uk/404". Read more: https://nextjs.org/docs/messages/prerender-error
+PageNotFoundError: Cannot find module for page: /404
+    at getPagePath (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/require.js:94:15)
+    at requirePage (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/require.js:99:22)
+    at /home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/load-components.js:59:84
+    at async loadComponentsImpl (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/load-components.js:59:26)
+    at async exportPageImpl (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:163:28)
+    at async /home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:219:16
+    at async Span.traceAsyncFn (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/trace/trace.js:105:20)
+    at async Object.exportPage (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:218:20)
+
+Error occurred prerendering page "/vi/404". Read more: https://nextjs.org/docs/messages/prerender-error
+PageNotFoundError: Cannot find module for page: /404
+    at getPagePath (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/require.js:94:15)
+    at requirePage (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/require.js:99:22)
+    at /home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/load-components.js:59:84
+    at async loadComponentsImpl (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/load-components.js:59:26)
+    at async exportPageImpl (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:163:28)
+    at async /home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:219:16
+    at async Span.traceAsyncFn (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/trace/trace.js:105:20)
+    at async Object.exportPage (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:218:20)
+
+Error occurred prerendering page "/et/404". Read more: https://nextjs.org/docs/messages/prerender-error
+PageNotFoundError: Cannot find module for page: /404
+    at getPagePath (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/require.js:94:15)
+    at requirePage (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/require.js:99:22)
+    at /home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/load-components.js:59:84
+    at async loadComponentsImpl (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/load-components.js:59:26)
+    at async exportPageImpl (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:163:28)
+    at async /home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:219:16
+    at async Span.traceAsyncFn (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/trace/trace.js:105:20)
+    at async Object.exportPage (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:218:20)
+
+Error occurred prerendering page "/he/401". Read more: https://nextjs.org/docs/messages/prerender-error
+PageNotFoundError: Cannot find module for page: /401
+    at getPagePath (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/require.js:94:15)
+    at requirePage (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/require.js:99:22)
+    at /home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/load-components.js:59:84
+    at async loadComponentsImpl (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/load-components.js:59:26)
+    at async exportPageImpl (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:163:28)
+    at async /home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:219:16
+    at async Span.traceAsyncFn (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/trace/trace.js:105:20)
+    at async Object.exportPage (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:218:20)
+
+Error occurred prerendering page "/lt/404". Read more: https://nextjs.org/docs/messages/prerender-error
+PageNotFoundError: Cannot find module for page: /404
+    at getPagePath (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/require.js:94:15)
+    at requirePage (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/require.js:99:22)
+    at /home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/load-components.js:59:84
+    at async loadComponentsImpl (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/load-components.js:59:26)
+    at async exportPageImpl (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:163:28)
+    at async /home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:219:16
+    at async Span.traceAsyncFn (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/trace/trace.js:105:20)
+    at async Object.exportPage (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:218:20)
+
+Error occurred prerendering page "/ro/404". Read more: https://nextjs.org/docs/messages/prerender-error
+PageNotFoundError: Cannot find module for page: /404
+    at getPagePath (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/require.js:94:15)
+    at requirePage (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/require.js:99:22)
+    at /home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/load-components.js:59:84
+    at async loadComponentsImpl (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/load-components.js:59:26)
+    at async exportPageImpl (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:163:28)
+    at async /home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:219:16
+    at async Span.traceAsyncFn (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/trace/trace.js:105:20)
+    at async Object.exportPage (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:218:20)
+
+Error occurred prerendering page "/es/401". Read more: https://nextjs.org/docs/messages/prerender-error
+PageNotFoundError: Cannot find module for page: /401
+    at getPagePath (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/require.js:94:15)
+    at requirePage (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/require.js:99:22)
+    at /home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/load-components.js:59:84
+    at async loadComponentsImpl (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/load-components.js:59:26)
+    at async exportPageImpl (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:163:28)
+    at async /home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:219:16
+    at async Span.traceAsyncFn (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/trace/trace.js:105:20)
+    at async Object.exportPage (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:218:20)
+
+Error occurred prerendering page "/ar/401". Read more: https://nextjs.org/docs/messages/prerender-error
+PageNotFoundError: Cannot find module for page: /401
+    at getPagePath (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/require.js:94:15)
+    at requirePage (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/require.js:99:22)
+    at /home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/load-components.js:59:84
+    at async loadComponentsImpl (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/load-components.js:59:26)
+    at async exportPageImpl (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:163:28)
+    at async /home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:219:16
+    at async Span.traceAsyncFn (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/trace/trace.js:105:20)
+    at async Object.exportPage (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:218:20)
+
+Error occurred prerendering page "/cn/401". Read more: https://nextjs.org/docs/messages/prerender-error
+PageNotFoundError: Cannot find module for page: /401
+    at getPagePath (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/require.js:94:15)
+    at requirePage (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/require.js:99:22)
+    at /home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/load-components.js:59:84
+    at async loadComponentsImpl (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/load-components.js:59:26)
+    at async exportPageImpl (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:163:28)
+    at async /home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:219:16
+    at async Span.traceAsyncFn (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/trace/trace.js:105:20)
+    at async Object.exportPage (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:218:20)
+
+Error occurred prerendering page "/de/401". Read more: https://nextjs.org/docs/messages/prerender-error
+PageNotFoundError: Cannot find module for page: /401
+    at getPagePath (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/require.js:94:15)
+    at requirePage (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/require.js:99:22)
+    at /home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/load-components.js:59:84
+    at async loadComponentsImpl (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/load-components.js:59:26)
+    at async exportPageImpl (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:163:28)
+    at async /home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:219:16
+    at async Span.traceAsyncFn (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/trace/trace.js:105:20)
+    at async Object.exportPage (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:218:20)
+
+Error occurred prerendering page "/en/401". Read more: https://nextjs.org/docs/messages/prerender-error
+PageNotFoundError: Cannot find module for page: /401
+    at getPagePath (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/require.js:94:15)
+    at requirePage (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/require.js:99:22)
+    at /home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/load-components.js:59:84
+    at async loadComponentsImpl (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/load-components.js:59:26)
+    at async exportPageImpl (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:163:28)
+    at async /home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:219:16
+    at async Span.traceAsyncFn (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/trace/trace.js:105:20)
+    at async Object.exportPage (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:218:20)
+
+Error occurred prerendering page "/fr/401". Read more: https://nextjs.org/docs/messages/prerender-error
+PageNotFoundError: Cannot find module for page: /401
+    at getPagePath (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/require.js:94:15)
+    at requirePage (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/require.js:99:22)
+    at /home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/load-components.js:59:84
+    at async loadComponentsImpl (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/load-components.js:59:26)
+    at async exportPageImpl (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:163:28)
+    at async /home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:219:16
+    at async Span.traceAsyncFn (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/trace/trace.js:105:20)
+    at async Object.exportPage (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:218:20)
+
+Error occurred prerendering page "/el/401". Read more: https://nextjs.org/docs/messages/prerender-error
+PageNotFoundError: Cannot find module for page: /401
+    at getPagePath (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/require.js:94:15)
+    at requirePage (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/require.js:99:22)
+    at /home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/load-components.js:59:84
+    at async loadComponentsImpl (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/load-components.js:59:26)
+    at async exportPageImpl (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:163:28)
+    at async /home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:219:16
+    at async Span.traceAsyncFn (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/trace/trace.js:105:20)
+    at async Object.exportPage (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:218:20)
+
+Error occurred prerendering page "/da/401". Read more: https://nextjs.org/docs/messages/prerender-error
+PageNotFoundError: Cannot find module for page: /401
+    at getPagePath (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/require.js:94:15)
+    at requirePage (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/require.js:99:22)
+    at /home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/load-components.js:59:84
+    at async loadComponentsImpl (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/load-components.js:59:26)
+    at async exportPageImpl (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:163:28)
+    at async /home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:219:16
+    at async Span.traceAsyncFn (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/trace/trace.js:105:20)
+    at async Object.exportPage (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:218:20)
+
+Error occurred prerendering page "/cs/401". Read more: https://nextjs.org/docs/messages/prerender-error
+PageNotFoundError: Cannot find module for page: /401
+    at getPagePath (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/require.js:94:15)
+    at requirePage (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/require.js:99:22)
+    at /home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/load-components.js:59:84
+    at async loadComponentsImpl (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/server/load-components.js:59:26)
+    at async exportPageImpl (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:163:28)
+    at async /home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:219:16
+    at async Span.traceAsyncFn (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/trace/trace.js:105:20)
+    at async Object.exportPage (/home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/homarr-refactor/node_modules/next/dist/export/worker.js:218:20)
+ ✓ Generating static pages (64/64) 
+
+> Export encountered errors on following paths:
+	/401: /ar/401
+	/401: /cn/401
+	/401: /cr/401
+	/401: /cs/401
+	/401: /da/401
+	/401: /de/401
+	/401: /el/401
+	/401: /en/401
+	/401: /es/401
+	/401: /et/401
+	/401: /fr/401
+	/401: /he/401
+	/401: /hr/401
+	/401: /hu/401
+	/401: /it/401
+	/401: /ja/401
+	/401: /ko/401
+	/401: /lt/401
+	/401: /lv/401
+	/401: /nl/401
+	/401: /no/401
+	/401: /pl/401
+	/401: /pt/401
+	/401: /ro/401
+	/401: /ru/401
+	/401: /sk/401
+	/401: /sl/401
+	/401: /sv/401
+	/401: /tr/401
+	/401: /tw/401
+	/401: /uk/401
+	/401: /vi/401
+	/404: /ar/404
+	/404: /cn/404
+	/404: /cr/404
+	/404: /cs/404
+	/404: /da/404
+	/404: /de/404
+	/404: /el/404
+	/404: /en/404
+	/404: /es/404
+	/404: /et/404
+	/404: /fr/404
+	/404: /he/404
+	/404: /hr/404
+	/404: /hu/404
+	/404: /it/404
+	/404: /ja/404
+	/404: /ko/404
+	/404: /lt/404
+	/404: /lv/404
+	/404: /nl/404
+	/404: /no/404
+	/404: /pl/404
+	/404: /pt/404
+	/404: /ro/404
+	/404: /ru/404
+	/404: /sk/404
+	/404: /sl/404
+	/404: /sv/404
+	/404: /tr/404
+	/404: /tw/404
+	/404: /uk/404
+	/404: /vi/404

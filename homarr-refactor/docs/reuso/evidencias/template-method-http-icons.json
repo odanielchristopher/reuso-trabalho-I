@@ -1,0 +1,32 @@
+{
+  "url": "http://127.0.0.1:3001/api/icons",
+  "status": 200,
+  "repositories": [
+    {
+      "name": "Local",
+      "success": true,
+      "count": 0
+    },
+    {
+      "name": "Walkxcode Dashboard Icons",
+      "success": true,
+      "count": 8080
+    },
+    {
+      "name": "Tabler Icons",
+      "success": true,
+      "count": 0
+    },
+    {
+      "name": "Papirus Icons",
+      "success": true,
+      "count": 2225
+    },
+    {
+      "name": "Homelab Svg Assets",
+      "success": true,
+      "count": 576
+    }
+  ],
+  "browserValidation": "not completed: browser automation timeout"
+}
