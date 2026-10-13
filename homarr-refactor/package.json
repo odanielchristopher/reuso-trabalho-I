@@ -86,7 +86,7 @@
     "drizzle-kit": "^0.19.13",
     "drizzle-orm": "^0.28.6",
     "drizzle-zod": "^0.5.1",
-    "fily-publish-gridstack": "^0.0.13",
+    "fily-publish-gridstack": "file:./vendor/fily-publish-gridstack",
     "flag-icons": "^6.9.2",
     "framer-motion": "^10.0.0",
     "generate-password": "^1.7.0",

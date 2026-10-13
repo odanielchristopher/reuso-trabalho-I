@@ -6869,10 +6869,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fily-publish-gridstack@npm:^0.0.13":
+"fily-publish-gridstack@file:./vendor/fily-publish-gridstack::locator=homarr%40workspace%3A.":
   version: 0.0.13
-  resolution: "fily-publish-gridstack@npm:0.0.13"
-  checksum: e025e32982397e0cd8d37f022a39911172579bec984a7cf05c10ee06b9b8a51471820c74b95f2dc9bde97af98e305527545955ad4ca6cc89b830c864f91bb755
+  resolution: "fily-publish-gridstack@file:./vendor/fily-publish-gridstack#./vendor/fily-publish-gridstack::hash=560f9b&locator=homarr%40workspace%3A."
+  checksum: 199b23c242356b7febb58906a795bfd632dcf63084e97ebca2681da31f2f5bec654fa3cefb9c31198a1946c725e61baadef0e9843158c4f89148ba5efe1551b9
   languageName: node
   linkType: hard
 
@@ -7659,7 +7659,7 @@ __metadata:
     eslint-plugin-testing-library: ^5.5.1
     eslint-plugin-unused-imports: ^3.0.0
     eslint-plugin-vitest: ^0.2.0
-    fily-publish-gridstack: ^0.0.13
+    fily-publish-gridstack: "file:./vendor/fily-publish-gridstack"
     flag-icons: ^6.9.2
     framer-motion: ^10.0.0
     generate-password: ^1.7.0

@@ -16,7 +16,7 @@ Na inspeção inicial, não foram encontrados enunciado/template no diretório d
 
 ## Requisitos conferidos no enunciado do professor
 
-Fonte: [enunciado do professor](</home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/Trabalho 1 – Refatorac&#807;a&#771;o com Padro&#771;es de Projeto em Sistema Legado.pdf>). Documento da UFC, Campus Quixadá, QXD0068, Prof. Francisco Victor da Silva Pinheiro, quatro páginas.
+Fonte: [enunciado do professor](</home/odanielrodrigues/Faculdade/2026.2/reuso/trabalho-I/Trabalho 1 – Refatoração com Padrões de Projeto em Sistema Legado.pdf>). Documento da UFC, Campus Quixadá, QXD0068, Prof. Francisco Victor da Silva Pinheiro, quatro páginas.
 
 ### Exigências confirmadas
 
@@ -141,72 +141,6 @@ Esta seção amplia as opções, não aprova sua implementação. As evidências
 **Validação antes/depois:** resposta vazia; erro de rede/JSON; filtros específicos de cada fonte; ordem SVG antes de PNG exclusiva do GitHub; tamanhos e copyright; nomes e URLs; falha devolvendo name vazio como hoje; fonte local ausente. Mockar fetch/fs e executar os métodos reais. Caracterizar o comportamento HTTP atual: as implementações não verificam response.ok explicitamente; acrescentar essa verificação seria uma mudança a avaliar separadamente.
 
 **Benefício esperado e custo:** reduzir montagem e sequência repetidas, deixando visíveis as diferenças entre fontes. Custo: herança adicional e risco de abstrair formatos diferentes em excesso. É uma ampliação de padrão preexistente, não descoberta de ausência total de Template Method. Confirmar no enunciado se essa modalidade atende ao requisito de aplicação.
-
-### 2. Strategy e Adapter — controles e estatísticas de DNS
-
-**Prioridade: média; alternativa de escopo ao backend de downloads.** Arquivo: `src/server/api/routers/dns-hole/router.ts`, símbolos `processPiHole`, `processAdGuard`, `collectPiHoleSummary` e `collectAdGuardSummary`. Fronteiras: `sdk/pihole/piHole.ts` e `sdk/adGuard/adGuard.ts`.
-
-**Observação:** control seleciona duas integrações e repete a sequência criar cliente → habilitar/desabilitar → tratar falha. summary seleciona os mesmos provedores e converte respostas diferentes em estatísticas consumidas pelo widget. Pi-hole fornece um resumo; AdGuard exige stats, status e filtros, com cálculo dependente de time_units.
-
-**Proposta e participantes:** contrato de provedor DNS com controle e resumo; adaptadores traduzem chamadas e formatos de cada SDK; estratégias intercambiáveis são selecionadas pela rota. A agregação entre apps continua no contexto/rota. Se apenas um desses objetivos for implementado, contabilizar apenas o padrão correspondente.
-
-**Alternativa:** funções por provedor em módulos separados, sem objetos intercambiáveis. Também não há necessidade de recriar os SDKs já existentes.
-
-**Validação:** apps selecionados/ignorados, appsToChange ausente, enable/disable e duração, erros de controle atualmente absorvidos, resumo vazio, totais e razão agregada, estatísticas AdGuard em horas/dias. Preservar a assimetria: getStats possui catch que retorna null, mas getStatus/getCountFilteringDomains podem rejeitar toda a consulta. Há testes do cliente Pi-hole, mas eles não caracterizam a coordenação desta rota nem AdGuard. Não trocar Promise.all por tolerância a falhas parciais silenciosamente.
-
-**Benefício esperado e custo:** reutilizar o contrato nas duas operações e isolar tradução dos SDKs; custo de interfaces e montagem. É uma aplicação adicional dos padrões já candidatos, não um quinto/sexto padrão distinto.
-
-### 3. Adapter e Strategy — normalização de Jellyfin/Plex
-
-**Prioridade: média; escopo maior que os ícones.** Arquivos: `src/server/api/routers/media-server.ts:71`, `handleServer`; `src/tools/server/sdk/plex/plexClient.ts`, `PlexClient.getSessions`; contratos em `src/types/api/media-server/`.
-
-**Observação:** handleServer reúne configuração, autenticação, consulta e extensa normalização Jellyfin, enquanto Plex já converte XML em GenericSessionInfo dentro do cliente. A fronteira de tradução está distribuída de maneira desigual. A rota all coordena consultas e transforma exceções em servidores com success false.
-
-**Proposta e participantes:** adaptador Jellyfin encapsula a tradução do SDK para sessões Homarr; avaliar reutilização do PlexClient como adaptador existente, sem envolvê-lo em uma classe vazia. Estratégias de coleta fornecem GenericMediaServer para um contexto comum, preservando a coordenação da rota.
-
-**Alternativa:** extrair somente o mapeamento Jellyfin como função pura. Pode ser a opção mais simples se o objetivo for exclusivamente tornar o mapeamento testável.
-
-**Validação:** credenciais ausentes, autenticação rejeitada, sessões vazias/sem NowPlayingItem, áudio/vídeo/transcodificação e campos opcionais, limpeza de URL e falha de apenas um servidor. Existem três testes de PlexClient; não foram encontrados testes específicos da rota/Jellyfin. Preservar diferenças atuais de endereço e type em respostas de falha. Não incluir Emby ou outro serviço apenas para demonstrar extensibilidade.
-
-**Benefício esperado e custo:** retirar detalhes Jellyfin da rota e tornar a tradução isoladamente verificável. Custo: fixtures extensas e risco de alterar campos opcionais. Como DNS, reutiliza tipos de padrões já propostos.
-
-### 4. Facade — operações de Prowlarr
-
-**Prioridade: média, com escopo pequeno.** Arquivo: `src/server/api/routers/indexer-manager.ts`, rotas indexers, statuses e testAllIndexers.
-
-**Observação:** as três operações repetem seleção do primeiro app Prowlarr, obtenção da chave, construção da URL e cabeçalho X-Api-Key. Cada rota conhece paths e detalhes Axios. Não há um cliente Prowlarr encapsulando essas operações.
-
-**Proposta e participantes:** fachada Prowlarr com operações de listar indexadores, consultar estados e testar todos, coordenando configuração/requisição e escondendo paths/cabeçalhos. As rotas permanecem responsáveis por input e autorização: publicProcedure nas consultas e protectedProcedure no teste. Não ampliar privilégios ou tornar tudo público durante a extração.
-
-**Alternativa:** helper de resolução do app e módulo HTTP simples. Se a mudança apenas envolver axios.get sem simplificar configuração e operações para seus consumidores, não há demonstração suficiente de Facade.
-
-**Validação:** chamadas/headers/payload, uso de origin atualmente descartando o subpath, resposta bem-sucedida, app/chave ausentes, resposta de erro em testAllIndexers. O código acessa app antes de validar sua existência e o catch de teste pressupõe err.response.data: reproduzir separadamente esses possíveis bugs. Alterar erro ou URL durante a fachada seria correção funcional adicional.
-
-**Benefício esperado e custo:** rotas deixam de duplicar conhecimento de conexão e protocolo. Custo relativamente pequeno, mas o reuso externo às três rotas ainda precisa ser demonstrado. É alternativa à fachada GridStack, com menos dependência de navegador, mas não adiciona um tipo de padrão diferente.
-
-### 5. Singleton — corrigir o uso de uma abstração já existente em Docker
-
-**Prioridade: baixa para contar um novo padrão; relevante como diagnóstico.** Arquivos: `src/server/api/routers/docker/DockerSingleton.ts`, `getInstance`; `docker/router.ts:12`, containers, e action.
-
-**Observação:** DockerSingleton já mantém uma instância estática e usa DOCKER_HOST/DOCKER_PORT. Porém containers cria `new Dockerode({})`, enquanto action usa getInstance. Isso abre caminhos de configuração diferentes. Além disso, a classe estende Docker, mas armazena `new Docker(...)`, não uma instância efetiva da subclasse.
-
-**Proposta:** avaliar centralizar obtenção do cliente e representar corretamente seu tipo; preferir composição a uma subclasse sem comportamento adicional. Singleton controla uma instância por processo/módulo, não por toda uma implantação Next.js.
-
-**Alternativa:** fornecedor de cliente injetável, possivelmente com instância de módulo. Oferece testabilidade sem uma API global de classe. Não rotular automaticamente uma exportação de módulo como introdução nova do Singleton GoF.
-
-**Validação:** reutilização da instância, opções de conexão e cliente usado em consulta/ação, preservação da autorização admin e conversão de erros. Usar Docker simulado; não executar remove/start/stop/restart em containers reais para caracterizar o código.
-
-**Limite importante:** alinhar listagem e ações ao mesmo host pode mudar comportamento real. Separar correção de configuração da refatoração e discutir qual caminho deve prevalecer. Não contar manutenção de um Singleton preexistente como aplicação nova sem conferir os critérios do trabalho.
-
-### 6. Proxy — acesso aos repositórios de ícones, caso exista demanda comprovada
-
-**Prioridade: baixa e condicionada; não recomendada agora.** Evidência: `src/server/api/routers/icon.ts`, IconRespositories/iconRouter.all, e `docker/router.ts`, containers. Ambos consultam todas as mesmas instâncias de repositório; fetch não guarda resultados entre chamadas.
-
-**Proposta e participantes:** proxy que implementa o mesmo contrato de consulta de um repositório e controla acesso ao objeto real, por exemplo compartilhando uma consulta em andamento ou cacheando resultados. Os clientes continuariam chamando fetch sem conhecer o controle de acesso.
-
-**Alternativa:** manter o comportamento atual ou organizar a coleta em um serviço compartilhado sem cache. Decorator seria outra classificação se o objetivo fosse acrescentar responsabilidades independentes, como instrumentação; não contar o mesmo wrapper como Proxy e Decorator.
-
-**Validação e limites:** chamadas simultâneas, identidade da chave/fonte, exceções, expiração e atualizações dos ícones locais. Cache muda frescor, quantidade de consultas e comportamento de falha: não é uma refatoração puramente preservadora. Não há medição de latência ou frequência que justifique otimização nesta etapa. Seria uma evolução separada, não um atalho para cumprir quatro padrões.
 
 ### Seleção recomendada para a próxima discussão
 
