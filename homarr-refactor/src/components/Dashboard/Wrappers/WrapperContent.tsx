@@ -1,4 +1,3 @@
-import { GridStack } from 'fily-publish-gridstack';
 import { MutableRefObject, RefObject } from 'react';
 import { AppType } from '~/types/app';
 import { WidgetWrapper } from '~/widgets/WidgetWrapper';
@@ -15,7 +14,6 @@ interface WrapperContentProps {
   refs: {
     wrapper: RefObject<HTMLDivElement>;
     items: MutableRefObject<Record<string, RefObject<HTMLDivElement>>>;
-    gridstack: MutableRefObject<GridStack | undefined>;
   };
 }
 

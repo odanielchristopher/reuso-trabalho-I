@@ -1,6 +1,7 @@
-import { AbstractIconRepository, NormalizedIcon, NormalizedIconRepositoryResult } from './abstract-icons-repository';
+import { NormalizedIcon } from './abstract-icons-repository';
+import { RemoteIconsRepository } from './remote-icons-repository';
 
-export class JsdelivrIconsRepository extends AbstractIconRepository {
+export class JsdelivrIconsRepository extends RemoteIconsRepository<JsdelivrResponse> {
   static readonly papirusRepository = {
     api: 'https://data.jsdelivr.com/v1/packages/gh/PapirusDevelopmentTeam/papirus_icons@master?structure=flat',
     blob: 'https://cdn.jsdelivr.net/gh/PapirusDevelopmentTeam/papirus_icons/src/{1}',
@@ -13,17 +14,14 @@ export class JsdelivrIconsRepository extends AbstractIconRepository {
 
   constructor(
     private readonly repository: JsdelivrRepositoryUrl,
-    private readonly displayName: string,
+    displayName: string,
     copyright: string
   ) {
-    super(copyright);
+    super(repository.api, displayName, copyright);
   }
 
-  protected async fetchInternally(): Promise<NormalizedIconRepositoryResult> {
-    const response = await fetch(this.repository.api);
-    const body = (await response.json()) as JsdelivrResponse;
-
-    const normalizedEntries = body.files
+  protected normalizeEntries(body: JsdelivrResponse): NormalizedIcon[] {
+    return body.files
       .filter((file) => !['_banner.png', '_logo.png'].some((x) => file.name.includes(x)))
       .filter((file) => ['.png', '.svg'].some((x) => file.name.endsWith(x)))
 
@@ -37,14 +35,6 @@ export class JsdelivrIconsRepository extends AbstractIconRepository {
           size: file.size,
         };
       });
-
-    return {
-      entries: normalizedEntries,
-      count: normalizedEntries.length,
-      success: true,
-      name: this.displayName,
-      copyright: this.copyright,
-    };
   }
 
   protected name: string = "JsDelivr";

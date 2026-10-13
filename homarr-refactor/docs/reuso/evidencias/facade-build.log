@@ -1,0 +1,909 @@
+   Skipping linting
+   Checking validity of types ...
+   Creating an optimized production build ...
+Browserslist: caniuse-lite is outdated. Please run:
+  npx browserslist@latest --update-db
+  Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
+ ⚠ Compiled with warnings
+
+./node_modules/react-ssr-prepass/dist/react-ssr-prepass.es.js
+A Node.js API is used (setImmediate at line: 512) which is not supported in the Edge Runtime.
+Learn more: https://nextjs.org/docs/api-reference/edge-runtime
+
+Import trace for requested module:
+./node_modules/react-ssr-prepass/dist/react-ssr-prepass.es.js
+./node_modules/@trpc/next/dist/index.mjs
+./src/utils/api.ts
+
+./node_modules/react-ssr-prepass/dist/react-ssr-prepass.es.js
+A Node.js API is used (setImmediate at line: 768) which is not supported in the Edge Runtime.
+Learn more: https://nextjs.org/docs/api-reference/edge-runtime
+
+Import trace for requested module:
+./node_modules/react-ssr-prepass/dist/react-ssr-prepass.es.js
+./node_modules/@trpc/next/dist/index.mjs
+./src/utils/api.ts
+
+./node_modules/scheduler/cjs/scheduler.production.min.js
+A Node.js API is used (setImmediate at line: 51) which is not supported in the Edge Runtime.
+Learn more: https://nextjs.org/docs/api-reference/edge-runtime
+
+Import trace for requested module:
+./node_modules/scheduler/cjs/scheduler.production.min.js
+./node_modules/scheduler/index.js
+./node_modules/react-dom/cjs/react-dom.production.min.js
+./node_modules/react-dom/index.js
+./node_modules/@tanstack/react-query/build/lib/reactBatchedUpdates.mjs
+./node_modules/@tanstack/react-query/build/lib/setBatchUpdatesFn.mjs
+./node_modules/@tanstack/react-query/build/lib/index.mjs
+./src/tools/server/configurations/tanstack/queryClient.tool.ts
+./src/utils/api.ts
+
+./node_modules/scheduler/cjs/scheduler.production.min.js
+A Node.js API is used (setImmediate at line: 51) which is not supported in the Edge Runtime.
+Learn more: https://nextjs.org/docs/api-reference/edge-runtime
+
+Import trace for requested module:
+./node_modules/scheduler/cjs/scheduler.production.min.js
+./node_modules/scheduler/index.js
+./node_modules/react-dom/cjs/react-dom.production.min.js
+./node_modules/react-dom/index.js
+./node_modules/@tanstack/react-query/build/lib/reactBatchedUpdates.mjs
+./node_modules/@tanstack/react-query/build/lib/setBatchUpdatesFn.mjs
+./node_modules/@tanstack/react-query/build/lib/index.mjs
+./src/tools/server/configurations/tanstack/queryClient.tool.ts
+./src/utils/api.ts
+
+./node_modules/scheduler/cjs/scheduler.production.min.js
+A Node.js API is used (MessageChannel at line: 120) which is not supported in the Edge Runtime.
+Learn more: https://nextjs.org/docs/api-reference/edge-runtime
+
+Import trace for requested module:
+./node_modules/scheduler/cjs/scheduler.production.min.js
+./node_modules/scheduler/index.js
+./node_modules/react-dom/cjs/react-dom.production.min.js
+./node_modules/react-dom/index.js
+./node_modules/@tanstack/react-query/build/lib/reactBatchedUpdates.mjs
+./node_modules/@tanstack/react-query/build/lib/setBatchUpdatesFn.mjs
+./node_modules/@tanstack/react-query/build/lib/index.mjs
+./src/tools/server/configurations/tanstack/queryClient.tool.ts
+./src/utils/api.ts
+
+./node_modules/scheduler/cjs/scheduler.production.min.js
+A Node.js API is used (MessageChannel at line: 121) which is not supported in the Edge Runtime.
+Learn more: https://nextjs.org/docs/api-reference/edge-runtime
+
+Import trace for requested module:
+./node_modules/scheduler/cjs/scheduler.production.min.js
+./node_modules/scheduler/index.js
+./node_modules/react-dom/cjs/react-dom.production.min.js
+./node_modules/react-dom/index.js
+./node_modules/@tanstack/react-query/build/lib/reactBatchedUpdates.mjs
+./node_modules/@tanstack/react-query/build/lib/setBatchUpdatesFn.mjs
+./node_modules/@tanstack/react-query/build/lib/index.mjs
+./src/tools/server/configurations/tanstack/queryClient.tool.ts
+./src/utils/api.ts
+
+   Collecting page data ...
+Warning: You have opted-out of Automatic Static Optimization due to `getInitialProps` in `pages/_app`. This does not opt-out pages with `getStaticProps`
+Read more: https://nextjs.org/docs/messages/opt-out-auto-static-optimization
+
+   Generating static pages (0/64) ...
+[next-auth][error][CLIENT_FETCH_ERROR] 
+https://next-auth.js.org/errors#client_fetch_error fetch failed {
+  error: {
+    message: 'fetch failed',
+    stack: 'TypeError: fetch failed\n' +
+      '    at node:internal/deps/undici/undici:15270:13\n' +
+      '    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)',
+    name: 'TypeError'
+  },
+  url: 'http://localhost:3000/api/auth/session',
+  message: 'fetch failed'
+}
+[next-auth][error][CLIENT_FETCH_ERROR] 
+https://next-auth.js.org/errors#client_fetch_error fetch failed {
+  error: {
+    message: 'fetch failed',
+    stack: 'TypeError: fetch failed\n' +
+      '    at node:internal/deps/undici/undici:15270:13\n' +
+      '    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)',
+    name: 'TypeError'
+  },
+  url: 'http://localhost:3000/api/auth/session',
+  message: 'fetch failed'
+}
+[next-auth][error][CLIENT_FETCH_ERROR] 
+https://next-auth.js.org/errors#client_fetch_error fetch failed {
+  error: {
+    message: 'fetch failed',
+    stack: 'TypeError: fetch failed\n' +
+      '    at node:internal/deps/undici/undici:15270:13\n' +
+      '    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)',
+    name: 'TypeError'
+  },
+  url: 'http://localhost:3000/api/auth/session',
+  message: 'fetch failed'
+}
+[next-auth][error][CLIENT_FETCH_ERROR] 
+https://next-auth.js.org/errors#client_fetch_error fetch failed {
+  error: {
+    message: 'fetch failed',
+    stack: 'TypeError: fetch failed\n' +
+      '    at node:internal/deps/undici/undici:15270:13\n' +
+      '    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)',
+    name: 'TypeError'
+  },
+  url: 'http://localhost:3000/api/auth/session',
+  message: 'fetch failed'
+}
+[next-auth][error][CLIENT_FETCH_ERROR] 
+https://next-auth.js.org/errors#client_fetch_error fetch failed {
+  error: {
+    message: 'fetch failed',
+    stack: 'TypeError: fetch failed\n' +
+      '    at node:internal/deps/undici/undici:15270:13\n' +
+      '    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)',
+    name: 'TypeError'
+  },
+  url: 'http://localhost:3000/api/auth/session',
+  message: 'fetch failed'
+}
+[next-auth][error][CLIENT_FETCH_ERROR] 
+https://next-auth.js.org/errors#client_fetch_error fetch failed {
+  error: {
+    message: 'fetch failed',
+    stack: 'TypeError: fetch failed\n' +
+      '    at node:internal/deps/undici/undici:15270:13\n' +
+      '    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)',
+    name: 'TypeError'
+  },
+  url: 'http://localhost:3000/api/auth/session',
+  message: 'fetch failed'
+}
+[next-auth][error][CLIENT_FETCH_ERROR] 
+https://next-auth.js.org/errors#client_fetch_error fetch failed {
+  error: {
+    message: 'fetch failed',
+    stack: 'TypeError: fetch failed\n' +
+      '    at node:internal/deps/undici/undici:15270:13\n' +
+      '    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)',
+    name: 'TypeError'
+  },
+  url: 'http://localhost:3000/api/auth/session',
+  message: 'fetch failed'
+}
+[next-auth][error][CLIENT_FETCH_ERROR] 
+https://next-auth.js.org/errors#client_fetch_error fetch failed {
+  error: {
+    message: 'fetch failed',
+    stack: 'TypeError: fetch failed\n' +
+      '    at node:internal/deps/undici/undici:15270:13\n' +
+      '    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)',
+    name: 'TypeError'
+  },
+  url: 'http://localhost:3000/api/auth/session',
+  message: 'fetch failed'
+}
+[next-auth][error][CLIENT_FETCH_ERROR] 
+https://next-auth.js.org/errors#client_fetch_error fetch failed {
+  error: {
+    message: 'fetch failed',
+    stack: 'TypeError: fetch failed\n' +
+      '    at node:internal/deps/undici/undici:15270:13\n' +
+      '    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)',
+    name: 'TypeError'
+  },
+  url: 'http://localhost:3000/api/auth/session',
+  message: 'fetch failed'
+}
+[next-auth][error][CLIENT_FETCH_ERROR] 
+https://next-auth.js.org/errors#client_fetch_error fetch failed {
+  error: {
+    message: 'fetch failed',
+    stack: 'TypeError: fetch failed\n' +
+      '    at node:internal/deps/undici/undici:15270:13\n' +
+      '    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)',
+    name: 'TypeError'
+  },
+  url: 'http://localhost:3000/api/auth/session',
+  message: 'fetch failed'
+}
+[next-auth][error][CLIENT_FETCH_ERROR] 
+https://next-auth.js.org/errors#client_fetch_error fetch failed {
+  error: {
+    message: 'fetch failed',
+    stack: 'TypeError: fetch failed\n' +
+      '    at node:internal/deps/undici/undici:15270:13\n' +
+      '    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)',
+    name: 'TypeError'
+  },
+  url: 'http://localhost:3000/api/auth/session',
+  message: 'fetch failed'
+}
+[next-auth][error][CLIENT_FETCH_ERROR] 
+https://next-auth.js.org/errors#client_fetch_error fetch failed {
+  error: {
+    message: 'fetch failed',
+    stack: 'TypeError: fetch failed\n' +
+      '    at node:internal/deps/undici/undici:15270:13\n' +
+      '    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)',
+    name: 'TypeError'
+  },
+  url: 'http://localhost:3000/api/auth/session',
+  message: 'fetch failed'
+}
+[next-auth][error][CLIENT_FETCH_ERROR] 
+https://next-auth.js.org/errors#client_fetch_error fetch failed {
+  error: {
+    message: 'fetch failed',
+    stack: 'TypeError: fetch failed\n' +
+      '    at node:internal/deps/undici/undici:15270:13\n' +
+      '    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)',
+    name: 'TypeError'
+  },
+  url: 'http://localhost:3000/api/auth/session',
+  message: 'fetch failed'
+}
+[next-auth][error][CLIENT_FETCH_ERROR] 
+https://next-auth.js.org/errors#client_fetch_error fetch failed {
+  error: {
+    message: 'fetch failed',
+    stack: 'TypeError: fetch failed\n' +
+      '    at node:internal/deps/undici/undici:15270:13\n' +
+      '    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)',
+    name: 'TypeError'
+  },
+  url: 'http://localhost:3000/api/auth/session',
+  message: 'fetch failed'
+}
+[next-auth][error][CLIENT_FETCH_ERROR] 
+https://next-auth.js.org/errors#client_fetch_error fetch failed {
+  error: {
+    message: 'fetch failed',
+    stack: 'TypeError: fetch failed\n' +
+      '    at node:internal/deps/undici/undici:15270:13\n' +
+      '    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)',
+    name: 'TypeError'
+  },
+  url: 'http://localhost:3000/api/auth/session',
+  message: 'fetch failed'
+}
+[next-auth][error][CLIENT_FETCH_ERROR] 
+https://next-auth.js.org/errors#client_fetch_error fetch failed {
+  error: {
+    message: 'fetch failed',
+    stack: 'TypeError: fetch failed\n' +
+      '    at node:internal/deps/undici/undici:15270:13\n' +
+      '    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)',
+    name: 'TypeError'
+  },
+  url: 'http://localhost:3000/api/auth/session',
+  message: 'fetch failed'
+}
+[next-auth][error][CLIENT_FETCH_ERROR] 
+https://next-auth.js.org/errors#client_fetch_error fetch failed {
+  error: {
+    message: 'fetch failed',
+    stack: 'TypeError: fetch failed\n' +
+      '    at node:internal/deps/undici/undici:15270:13\n' +
+      '    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)',
+    name: 'TypeError'
+  },
+  url: 'http://localhost:3000/api/auth/session',
+  message: 'fetch failed'
+}
+[next-auth][error][CLIENT_FETCH_ERROR] 
+https://next-auth.js.org/errors#client_fetch_error fetch failed {
+  error: {
+    message: 'fetch failed',
+    stack: 'TypeError: fetch failed\n' +
+      '    at node:internal/deps/undici/undici:15270:13\n' +
+      '    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)',
+    name: 'TypeError'
+  },
+  url: 'http://localhost:3000/api/auth/session',
+  message: 'fetch failed'
+}
+[next-auth][error][CLIENT_FETCH_ERROR] 
+https://next-auth.js.org/errors#client_fetch_error fetch failed {
+  error: {
+    message: 'fetch failed',
+    stack: 'TypeError: fetch failed\n' +
+      '    at node:internal/deps/undici/undici:15270:13\n' +
+      '    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)',
+    name: 'TypeError'
+  },
+  url: 'http://localhost:3000/api/auth/session',
+  message: 'fetch failed'
+}
+   Generating static pages (16/64) 
+[next-auth][error][CLIENT_FETCH_ERROR] 
+https://next-auth.js.org/errors#client_fetch_error fetch failed {
+  error: {
+    message: 'fetch failed',
+    stack: 'TypeError: fetch failed\n' +
+      '    at node:internal/deps/undici/undici:15270:13\n' +
+      '    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)',
+    name: 'TypeError'
+  },
+  url: 'http://localhost:3000/api/auth/session',
+  message: 'fetch failed'
+}
+[next-auth][error][CLIENT_FETCH_ERROR] 
+https://next-auth.js.org/errors#client_fetch_error fetch failed {
+  error: {
+    message: 'fetch failed',
+    stack: 'TypeError: fetch failed\n' +
+      '    at node:internal/deps/undici/undici:15270:13\n' +
+      '    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)',
+    name: 'TypeError'
+  },
+  url: 'http://localhost:3000/api/auth/session',
+  message: 'fetch failed'
+}
+[next-auth][error][CLIENT_FETCH_ERROR] 
+https://next-auth.js.org/errors#client_fetch_error fetch failed {
+  error: {
+    message: 'fetch failed',
+    stack: 'TypeError: fetch failed\n' +
+      '    at node:internal/deps/undici/undici:15270:13\n' +
+      '    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)',
+    name: 'TypeError'
+  },
+  url: 'http://localhost:3000/api/auth/session',
+  message: 'fetch failed'
+}
+[next-auth][error][CLIENT_FETCH_ERROR] 
+https://next-auth.js.org/errors#client_fetch_error fetch failed {
+  error: {
+    message: 'fetch failed',
+    stack: 'TypeError: fetch failed\n' +
+      '    at node:internal/deps/undici/undici:15270:13\n' +
+      '    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)',
+    name: 'TypeError'
+  },
+  url: 'http://localhost:3000/api/auth/session',
+  message: 'fetch failed'
+}
+[next-auth][error][CLIENT_FETCH_ERROR] 
+https://next-auth.js.org/errors#client_fetch_error fetch failed {
+  error: {
+    message: 'fetch failed',
+    stack: 'TypeError: fetch failed\n' +
+      '    at node:internal/deps/undici/undici:15270:13\n' +
+      '    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)',
+    name: 'TypeError'
+  },
+  url: 'http://localhost:3000/api/auth/session',
+  message: 'fetch failed'
+}
+[next-auth][error][CLIENT_FETCH_ERROR] 
+https://next-auth.js.org/errors#client_fetch_error fetch failed {
+  error: {
+    message: 'fetch failed',
+    stack: 'TypeError: fetch failed\n' +
+      '    at node:internal/deps/undici/undici:15270:13\n' +
+      '    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)',
+    name: 'TypeError'
+  },
+  url: 'http://localhost:3000/api/auth/session',
+  message: 'fetch failed'
+}
+[next-auth][error][CLIENT_FETCH_ERROR] 
+https://next-auth.js.org/errors#client_fetch_error fetch failed {
+  error: {
+    message: 'fetch failed',
+    stack: 'TypeError: fetch failed\n' +
+      '    at node:internal/deps/undici/undici:15270:13\n' +
+      '    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)',
+    name: 'TypeError'
+  },
+  url: 'http://localhost:3000/api/auth/session',
+  message: 'fetch failed'
+}
+[next-auth][error][CLIENT_FETCH_ERROR] 
+https://next-auth.js.org/errors#client_fetch_error fetch failed {
+  error: {
+    message: 'fetch failed',
+    stack: 'TypeError: fetch failed\n' +
+      '    at node:internal/deps/undici/undici:15270:13\n' +
+      '    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)',
+    name: 'TypeError'
+  },
+  url: 'http://localhost:3000/api/auth/session',
+  message: 'fetch failed'
+}
+[next-auth][error][CLIENT_FETCH_ERROR] 
+https://next-auth.js.org/errors#client_fetch_error fetch failed {
+  error: {
+    message: 'fetch failed',
+    stack: 'TypeError: fetch failed\n' +
+      '    at node:internal/deps/undici/undici:15270:13\n' +
+      '    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)',
+    name: 'TypeError'
+  },
+  url: 'http://localhost:3000/api/auth/session',
+  message: 'fetch failed'
+}
+[next-auth][error][CLIENT_FETCH_ERROR] 
+https://next-auth.js.org/errors#client_fetch_error fetch failed {
+  error: {
+    message: 'fetch failed',
+    stack: 'TypeError: fetch failed\n' +
+      '    at node:internal/deps/undici/undici:15270:13\n' +
+      '    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)',
+    name: 'TypeError'
+  },
+  url: 'http://localhost:3000/api/auth/session',
+  message: 'fetch failed'
+}
+[next-auth][error][CLIENT_FETCH_ERROR] 
+https://next-auth.js.org/errors#client_fetch_error fetch failed {
+  error: {
+    message: 'fetch failed',
+    stack: 'TypeError: fetch failed\n' +
+      '    at node:internal/deps/undici/undici:15270:13\n' +
+      '    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)',
+    name: 'TypeError'
+  },
+  url: 'http://localhost:3000/api/auth/session',
+  message: 'fetch failed'
+}
+[next-auth][error][CLIENT_FETCH_ERROR] 
+https://next-auth.js.org/errors#client_fetch_error fetch failed {
+  error: {
+    message: 'fetch failed',
+    stack: 'TypeError: fetch failed\n' +
+      '    at node:internal/deps/undici/undici:15270:13\n' +
+      '    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)',
+    name: 'TypeError'
+  },
+  url: 'http://localhost:3000/api/auth/session',
+  message: 'fetch failed'
+}
+[next-auth][error][CLIENT_FETCH_ERROR] 
+https://next-auth.js.org/errors#client_fetch_error fetch failed {
+  error: {
+    message: 'fetch failed',
+    stack: 'TypeError: fetch failed\n' +
+      '    at node:internal/deps/undici/undici:15270:13\n' +
+      '    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)',
+    name: 'TypeError'
+  },
+  url: 'http://localhost:3000/api/auth/session',
+  message: 'fetch failed'
+}
+[next-auth][error][CLIENT_FETCH_ERROR] 
+https://next-auth.js.org/errors#client_fetch_error fetch failed {
+  error: {
+    message: 'fetch failed',
+    stack: 'TypeError: fetch failed\n' +
+      '    at node:internal/deps/undici/undici:15270:13\n' +
+      '    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)',
+    name: 'TypeError'
+  },
+  url: 'http://localhost:3000/api/auth/session',
+  message: 'fetch failed'
+}
+[next-auth][error][CLIENT_FETCH_ERROR] 
+https://next-auth.js.org/errors#client_fetch_error fetch failed {
+  error: {
+    message: 'fetch failed',
+    stack: 'TypeError: fetch failed\n' +
+      '    at node:internal/deps/undici/undici:15270:13\n' +
+      '    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)',
+    name: 'TypeError'
+  },
+  url: 'http://localhost:3000/api/auth/session',
+  message: 'fetch failed'
+}
+[next-auth][error][CLIENT_FETCH_ERROR] 
+https://next-auth.js.org/errors#client_fetch_error fetch failed {
+  error: {
+    message: 'fetch failed',
+    stack: 'TypeError: fetch failed\n' +
+      '    at node:internal/deps/undici/undici:15270:13\n' +
+      '    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)',
+    name: 'TypeError'
+  },
+  url: 'http://localhost:3000/api/auth/session',
+  message: 'fetch failed'
+}
+[next-auth][error][CLIENT_FETCH_ERROR] 
+https://next-auth.js.org/errors#client_fetch_error fetch failed {
+  error: {
+    message: 'fetch failed',
+    stack: 'TypeError: fetch failed\n' +
+      '    at node:internal/deps/undici/undici:15270:13\n' +
+      '    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)',
+    name: 'TypeError'
+  },
+  url: 'http://localhost:3000/api/auth/session',
+  message: 'fetch failed'
+}
+[next-auth][error][CLIENT_FETCH_ERROR] 
+https://next-auth.js.org/errors#client_fetch_error fetch failed {
+  error: {
+    message: 'fetch failed',
+    stack: 'TypeError: fetch failed\n' +
+      '    at node:internal/deps/undici/undici:15270:13\n' +
+      '    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)',
+    name: 'TypeError'
+  },
+  url: 'http://localhost:3000/api/auth/session',
+  message: 'fetch failed'
+}
+   Generating static pages (32/64) 
+[next-auth][error][CLIENT_FETCH_ERROR] 
+https://next-auth.js.org/errors#client_fetch_error fetch failed {
+  error: {
+    message: 'fetch failed',
+    stack: 'TypeError: fetch failed\n' +
+      '    at node:internal/deps/undici/undici:15270:13\n' +
+      '    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)',
+    name: 'TypeError'
+  },
+  url: 'http://localhost:3000/api/auth/session',
+  message: 'fetch failed'
+}
+[next-auth][error][CLIENT_FETCH_ERROR] 
+https://next-auth.js.org/errors#client_fetch_error fetch failed {
+  error: {
+    message: 'fetch failed',
+    stack: 'TypeError: fetch failed\n' +
+      '    at node:internal/deps/undici/undici:15270:13\n' +
+      '    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)',
+    name: 'TypeError'
+  },
+  url: 'http://localhost:3000/api/auth/session',
+  message: 'fetch failed'
+}
+[next-auth][error][CLIENT_FETCH_ERROR] 
+https://next-auth.js.org/errors#client_fetch_error fetch failed {
+  error: {
+    message: 'fetch failed',
+    stack: 'TypeError: fetch failed\n' +
+      '    at node:internal/deps/undici/undici:15270:13\n' +
+      '    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)',
+    name: 'TypeError'
+  },
+  url: 'http://localhost:3000/api/auth/session',
+  message: 'fetch failed'
+}
+[next-auth][error][CLIENT_FETCH_ERROR] 
+https://next-auth.js.org/errors#client_fetch_error fetch failed {
+  error: {
+    message: 'fetch failed',
+    stack: 'TypeError: fetch failed\n' +
+      '    at node:internal/deps/undici/undici:15270:13\n' +
+      '    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)',
+    name: 'TypeError'
+  },
+  url: 'http://localhost:3000/api/auth/session',
+  message: 'fetch failed'
+}
+[next-auth][error][CLIENT_FETCH_ERROR] 
+https://next-auth.js.org/errors#client_fetch_error fetch failed {
+  error: {
+    message: 'fetch failed',
+    stack: 'TypeError: fetch failed\n' +
+      '    at node:internal/deps/undici/undici:15270:13\n' +
+      '    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)',
+    name: 'TypeError'
+  },
+  url: 'http://localhost:3000/api/auth/session',
+  message: 'fetch failed'
+}
+[next-auth][error][CLIENT_FETCH_ERROR] 
+https://next-auth.js.org/errors#client_fetch_error fetch failed {
+  error: {
+    message: 'fetch failed',
+    stack: 'TypeError: fetch failed\n' +
+      '    at node:internal/deps/undici/undici:15270:13\n' +
+      '    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)',
+    name: 'TypeError'
+  },
+  url: 'http://localhost:3000/api/auth/session',
+  message: 'fetch failed'
+}
+[next-auth][error][CLIENT_FETCH_ERROR] 
+https://next-auth.js.org/errors#client_fetch_error fetch failed {
+  error: {
+    message: 'fetch failed',
+    stack: 'TypeError: fetch failed\n' +
+      '    at node:internal/deps/undici/undici:15270:13\n' +
+      '    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)',
+    name: 'TypeError'
+  },
+  url: 'http://localhost:3000/api/auth/session',
+  message: 'fetch failed'
+}
+[next-auth][error][CLIENT_FETCH_ERROR] 
+https://next-auth.js.org/errors#client_fetch_error fetch failed {
+  error: {
+    message: 'fetch failed',
+    stack: 'TypeError: fetch failed\n' +
+      '    at node:internal/deps/undici/undici:15270:13\n' +
+      '    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)',
+    name: 'TypeError'
+  },
+  url: 'http://localhost:3000/api/auth/session',
+  message: 'fetch failed'
+}
+[next-auth][error][CLIENT_FETCH_ERROR] 
+https://next-auth.js.org/errors#client_fetch_error fetch failed {
+  error: {
+    message: 'fetch failed',
+    stack: 'TypeError: fetch failed\n' +
+      '    at node:internal/deps/undici/undici:15270:13\n' +
+      '    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)',
+    name: 'TypeError'
+  },
+  url: 'http://localhost:3000/api/auth/session',
+  message: 'fetch failed'
+}
+[next-auth][error][CLIENT_FETCH_ERROR] 
+https://next-auth.js.org/errors#client_fetch_error fetch failed {
+  error: {
+    message: 'fetch failed',
+    stack: 'TypeError: fetch failed\n' +
+      '    at node:internal/deps/undici/undici:15270:13\n' +
+      '    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)',
+    name: 'TypeError'
+  },
+  url: 'http://localhost:3000/api/auth/session',
+  message: 'fetch failed'
+}
+[next-auth][error][CLIENT_FETCH_ERROR] 
+https://next-auth.js.org/errors#client_fetch_error fetch failed {
+  error: {
+    message: 'fetch failed',
+    stack: 'TypeError: fetch failed\n' +
+      '    at node:internal/deps/undici/undici:15270:13\n' +
+      '    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)',
+    name: 'TypeError'
+  },
+  url: 'http://localhost:3000/api/auth/session',
+  message: 'fetch failed'
+}
+   Generating static pages (48/64) 
+[next-auth][error][CLIENT_FETCH_ERROR] 
+https://next-auth.js.org/errors#client_fetch_error fetch failed {
+  error: {
+    message: 'fetch failed',
+    stack: 'TypeError: fetch failed\n' +
+      '    at node:internal/deps/undici/undici:15270:13\n' +
+      '    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)',
+    name: 'TypeError'
+  },
+  url: 'http://localhost:3000/api/auth/session',
+  message: 'fetch failed'
+}
+[next-auth][error][CLIENT_FETCH_ERROR] 
+https://next-auth.js.org/errors#client_fetch_error fetch failed {
+  error: {
+    message: 'fetch failed',
+    stack: 'TypeError: fetch failed\n' +
+      '    at node:internal/deps/undici/undici:15270:13\n' +
+      '    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)',
+    name: 'TypeError'
+  },
+  url: 'http://localhost:3000/api/auth/session',
+  message: 'fetch failed'
+}
+[next-auth][error][CLIENT_FETCH_ERROR] 
+https://next-auth.js.org/errors#client_fetch_error fetch failed {
+  error: {
+    message: 'fetch failed',
+    stack: 'TypeError: fetch failed\n' +
+      '    at node:internal/deps/undici/undici:15270:13\n' +
+      '    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)',
+    name: 'TypeError'
+  },
+  url: 'http://localhost:3000/api/auth/session',
+  message: 'fetch failed'
+}
+[next-auth][error][CLIENT_FETCH_ERROR] 
+https://next-auth.js.org/errors#client_fetch_error fetch failed {
+  error: {
+    message: 'fetch failed',
+    stack: 'TypeError: fetch failed\n' +
+      '    at node:internal/deps/undici/undici:15270:13\n' +
+      '    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)',
+    name: 'TypeError'
+  },
+  url: 'http://localhost:3000/api/auth/session',
+  message: 'fetch failed'
+}
+[next-auth][error][CLIENT_FETCH_ERROR] 
+https://next-auth.js.org/errors#client_fetch_error fetch failed {
+  error: {
+    message: 'fetch failed',
+    stack: 'TypeError: fetch failed\n' +
+      '    at node:internal/deps/undici/undici:15270:13\n' +
+      '    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)',
+    name: 'TypeError'
+  },
+  url: 'http://localhost:3000/api/auth/session',
+  message: 'fetch failed'
+}
+[next-auth][error][CLIENT_FETCH_ERROR] 
+https://next-auth.js.org/errors#client_fetch_error fetch failed {
+  error: {
+    message: 'fetch failed',
+    stack: 'TypeError: fetch failed\n' +
+      '    at node:internal/deps/undici/undici:15270:13\n' +
+      '    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)',
+    name: 'TypeError'
+  },
+  url: 'http://localhost:3000/api/auth/session',
+  message: 'fetch failed'
+}
+[next-auth][error][CLIENT_FETCH_ERROR] 
+https://next-auth.js.org/errors#client_fetch_error fetch failed {
+  error: {
+    message: 'fetch failed',
+    stack: 'TypeError: fetch failed\n' +
+      '    at node:internal/deps/undici/undici:15270:13\n' +
+      '    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)',
+    name: 'TypeError'
+  },
+  url: 'http://localhost:3000/api/auth/session',
+  message: 'fetch failed'
+}
+[next-auth][error][CLIENT_FETCH_ERROR] 
+https://next-auth.js.org/errors#client_fetch_error fetch failed {
+  error: {
+    message: 'fetch failed',
+    stack: 'TypeError: fetch failed\n' +
+      '    at node:internal/deps/undici/undici:15270:13\n' +
+      '    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)',
+    name: 'TypeError'
+  },
+  url: 'http://localhost:3000/api/auth/session',
+  message: 'fetch failed'
+}
+[next-auth][error][CLIENT_FETCH_ERROR] 
+https://next-auth.js.org/errors#client_fetch_error fetch failed {
+  error: {
+    message: 'fetch failed',
+    stack: 'TypeError: fetch failed\n' +
+      '    at node:internal/deps/undici/undici:15270:13\n' +
+      '    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)',
+    name: 'TypeError'
+  },
+  url: 'http://localhost:3000/api/auth/session',
+  message: 'fetch failed'
+}
+[next-auth][error][CLIENT_FETCH_ERROR] 
+https://next-auth.js.org/errors#client_fetch_error fetch failed {
+  error: {
+    message: 'fetch failed',
+    stack: 'TypeError: fetch failed\n' +
+      '    at node:internal/deps/undici/undici:15270:13\n' +
+      '    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)',
+    name: 'TypeError'
+  },
+  url: 'http://localhost:3000/api/auth/session',
+  message: 'fetch failed'
+}
+[next-auth][error][CLIENT_FETCH_ERROR] 
+https://next-auth.js.org/errors#client_fetch_error fetch failed {
+  error: {
+    message: 'fetch failed',
+    stack: 'TypeError: fetch failed\n' +
+      '    at node:internal/deps/undici/undici:15270:13\n' +
+      '    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)',
+    name: 'TypeError'
+  },
+  url: 'http://localhost:3000/api/auth/session',
+  message: 'fetch failed'
+}
+[next-auth][error][CLIENT_FETCH_ERROR] 
+https://next-auth.js.org/errors#client_fetch_error fetch failed {
+  error: {
+    message: 'fetch failed',
+    stack: 'TypeError: fetch failed\n' +
+      '    at node:internal/deps/undici/undici:15270:13\n' +
+      '    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)',
+    name: 'TypeError'
+  },
+  url: 'http://localhost:3000/api/auth/session',
+  message: 'fetch failed'
+}
+[next-auth][error][CLIENT_FETCH_ERROR] 
+https://next-auth.js.org/errors#client_fetch_error fetch failed {
+  error: {
+    message: 'fetch failed',
+    stack: 'TypeError: fetch failed\n' +
+      '    at node:internal/deps/undici/undici:15270:13\n' +
+      '    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)',
+    name: 'TypeError'
+  },
+  url: 'http://localhost:3000/api/auth/session',
+  message: 'fetch failed'
+}
+[next-auth][error][CLIENT_FETCH_ERROR] 
+https://next-auth.js.org/errors#client_fetch_error fetch failed {
+  error: {
+    message: 'fetch failed',
+    stack: 'TypeError: fetch failed\n' +
+      '    at node:internal/deps/undici/undici:15270:13\n' +
+      '    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)',
+    name: 'TypeError'
+  },
+  url: 'http://localhost:3000/api/auth/session',
+  message: 'fetch failed'
+}
+[next-auth][error][CLIENT_FETCH_ERROR] 
+https://next-auth.js.org/errors#client_fetch_error fetch failed {
+  error: {
+    message: 'fetch failed',
+    stack: 'TypeError: fetch failed\n' +
+      '    at node:internal/deps/undici/undici:15270:13\n' +
+      '    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)',
+    name: 'TypeError'
+  },
+  url: 'http://localhost:3000/api/auth/session',
+  message: 'fetch failed'
+}
+[next-auth][error][CLIENT_FETCH_ERROR] 
+https://next-auth.js.org/errors#client_fetch_error fetch failed {
+  error: {
+    message: 'fetch failed',
+    stack: 'TypeError: fetch failed\n' +
+      '    at node:internal/deps/undici/undici:15270:13\n' +
+      '    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)',
+    name: 'TypeError'
+  },
+  url: 'http://localhost:3000/api/auth/session',
+  message: 'fetch failed'
+}
+ ✓ Generating static pages (64/64) 
+   Finalizing page optimization ...
+   Collecting build traces ...
+
+Route (pages)                              Size     First Load JS
+┌   /_app                                  0 B             658 kB
+├ ● /401                                   751 B           847 kB
+├ ● /404                                   727 B           658 kB
+├ λ /api/[...trpc]                         0 B             658 kB
+├ λ /api/auth/[...nextauth]                0 B             658 kB
+├ λ /api/download                          0 B             658 kB
+├ λ /api/migrate                           0 B             658 kB
+├ λ /api/openapi.json                      0 B             658 kB
+├ λ /api/trpc/[trpc]                       0 B             658 kB
+├ λ /auth/invite/[inviteId]                3.01 kB         661 kB
+├ λ /auth/login                            3.02 kB         661 kB
+├ λ /b                                     396 B           879 kB
+├ λ /b/[slug]                              400 B           879 kB
+├ λ /b/[slug]/customize                    281 B           863 kB
+├ λ /board                                 374 B           879 kB
+├ λ /board/[slug]                          380 B           879 kB
+├ λ /board/[slug]/customize                220 B           863 kB
+├ λ /manage                                3.07 kB         865 kB
+├ λ /manage/about                          16.3 kB         879 kB
+├ λ /manage/boards                         5.19 kB         867 kB
+├ λ /manage/tools/docker                   2.5 kB          865 kB
+├ λ /manage/tools/migrate                  2.86 kB         865 kB
+├ λ /manage/tools/swagger                  3.06 kB         865 kB
+├   └ css/ad322974924d0826.css             23.1 kB
+├ λ /manage/users                          3.84 kB         866 kB
+├ λ /manage/users/[userId]/edit            33 kB           895 kB
+├ λ /manage/users/create                   8.57 kB         871 kB
+├ λ /manage/users/invites                  2.98 kB         865 kB
+├ λ /onboard                               40.4 kB         698 kB
+└ λ /user/preferences                      2.59 kB         849 kB
++ First Load JS shared by all              690 kB
+  ├ chunks/framework-ca706bf673a13738.js   45.4 kB
+  ├ chunks/main-02cc6db5e2c5dd9f.js        33.8 kB
+  ├ chunks/pages/_app-f9182c01cd22b36d.js  576 kB
+  ├ chunks/webpack-8f3fc00480f59ce4.js     2.17 kB
+  └ css/ee91c1a0bbf2587d.css               31.8 kB
+
+ƒ Middleware                               105 kB
+
+λ  (Server)  server-side renders at runtime (uses getInitialProps or getServerSideProps)
+●  (SSG)     automatically generated as static HTML + JSON (uses getStaticProps)
+

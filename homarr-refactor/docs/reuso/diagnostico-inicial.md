@@ -2,6 +2,14 @@
 
 Este registro é preparatório para o Trabalho 1. Não é o relatório final. Os requisitos abaixo foram conferidos no enunciado do professor recebido em 12/10/2026; o template do relatório ainda não foi disponibilizado. Nenhuma refatoração de produção foi aplicada nesta etapa.
 
+## Decisão e caracterização implementada — 12/10/2026
+
+O estudante selecionou **Facade no GridStack**, **Command nas alterações dos itens** e **Template Method nos repositórios de ícones**. O quarto padrão GoF ainda não foi escolhido. Foram criados 44 testes de caracterização em AAA, sem mudanças de produção: 29 casos de layout/hook/store e 15 de ícones. Antes não havia testes específicos dessas responsabilidades.
+
+A suíte completa passou com 126 testes em 16 arquivos; typecheck mantém 15 erros anteriores e nenhum nos novos testes. Os testes usam dependências já instaladas; a instalação limpa continua bloqueada pelo pacote GridStack indisponível. A validação no navegador abriu o board e exercitou edição/salvamento, mas encontrou divergência de geometria após recarregar. A configuração original foi restaurada. Não há aprovação de equivalência funcional completa.
+
+Consulte [registro de caracterização](validacao-antes-refatoracao.md) para cenários, mocks, resultados, evidências, limitação de instalação, comportamento suspeito e casos ainda pendentes. As notas anteriores deste diagnóstico permanecem como histórico; afirmações de ausência de testes ou de navegador não executado referem-se à inspeção anterior a esta etapa.
+
 ## Origem e ambiente observado
 
 - Homarr 0.16.0; HEAD `c5873c6e4`, merge da PR #2335. Remote `git@github.com:ajnart/homarr.git`. Esses dados locais sustentam a origem em projeto de terceiros; não verificamos o estado atual do repositório remoto.
