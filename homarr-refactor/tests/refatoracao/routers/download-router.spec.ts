@@ -133,6 +133,39 @@ describe('downloadRouter.get', () => {
     });
   });
 
+  it('preserva fila torrent vazia com totais zerados', async () => {
+    // Arrange
+    const app = createApp({
+      id: 'deluge-empty-app',
+      url: 'http://deluge-empty.local',
+      integration: {
+        type: 'deluge',
+        properties: [{ field: 'password', value: 'pwd' }],
+      },
+    });
+
+    mocks.getConfigMock.mockReturnValue({ apps: [app] });
+    mocks.delugeGetAllDataMock.mockResolvedValue({
+      torrents: [],
+    });
+
+    const caller = downloadRouter.createCaller({ session: null, cookies: {} });
+
+    // Act
+    const result = await caller.get({ configName: 'default' });
+
+    // Assert
+    expect(result.apps).toHaveLength(1);
+    expect(result.apps[0]).toMatchObject({
+      type: 'torrent',
+      appId: 'deluge-empty-app',
+      totalDownload: 0,
+      totalUpload: 0,
+      success: true,
+      torrents: [],
+    });
+  });
+
   it('omite integração desconhecida sem falhar a rota', async () => {
     // Arrange
     const unknownApp = createApp({
